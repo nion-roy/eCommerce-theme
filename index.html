@@ -55,21 +55,21 @@
 					} else {
 						// Scrolling up
 						navbar.classList.remove("hidden");
-						if (scrollTop > 120) {
+						if (scrollTop > 80) {
 							navbar.classList.add("scrolled");
 						} else {
 							navbar.classList.remove("scrolled");
 						}
 					}
 
-					lastScrollTop = scrollTop <= 120 ? 120 : scrollTop; // Prevent negative scroll
+					lastScrollTop = scrollTop <= 80 ? 80 : scrollTop; // Prevent negative scroll
 					isScrolling = true;
 
 					// Reset after scrolling stops
 					clearTimeout(window.scrollTimeout);
 					window.scrollTimeout = setTimeout(() => {
 						isScrolling = false;
-					}, 300);
+					}, 1000);
 				});
 			});
 		</script>
