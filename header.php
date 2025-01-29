@@ -17,19 +17,22 @@
 <style>
     .sticky-top.scrolled {
         top: 0;
-        transition: transform 0.3s ease, background-color 0.3s ease;
+        transition: 300ms linear;
         z-index: 1030;
-        /* Ensure it stays on top */
         position: fixed;
-        /* Ensure the navbar stays fixed when scrolled */
         width: 100%;
         background-color: #fff;
         border-bottom: 1px solid #dfe2e1;
     }
 
     .sticky-top.hidden {
-        transform: translateY(-100%);
-        /* Hide navbar */
+        transform: translateY(-10px);
+        transition: 300ms linear;
+        /* transition: transform 0.3s linear, background-color 0.3s linear; */
+    }
+
+    .sticky-top {
+        transition: .3s linear;
     }
 </style>
 
