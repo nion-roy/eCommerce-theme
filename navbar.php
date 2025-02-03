@@ -1,4 +1,4 @@
-<div class="border-bottom">
+<div>
 
     <div class="bg-light py-1">
         <div class="container">

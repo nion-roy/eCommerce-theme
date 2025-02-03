@@ -1,76 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+	<!-- Mirrored from freshcart.codescandy.com/pages/shop-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Jan 2025 17:31:11 GMT -->
 	<head>
 		<!-- Required meta tags -->
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<meta content="Codescandy" name="author" />
-		<title>Homepage v1 - eCommerce HTML Template - FreshCart</title>
-
-		<link href="../assets/libs/tiny-slider/dist/tiny-slider.css" rel="stylesheet" />
-		<link href="../assets/libs/nouislider/dist/nouislider.min.css" rel="stylesheet" />
+		<title>Shop Grid eCommerce HTML Template - FreshCart</title>
+		<link href="assets/libs/tiny-slider/dist/tiny-slider.css" rel="stylesheet" />
+		<link href="assets/libs/nouislider/dist/nouislider.min.css" rel="stylesheet" />
 		<!-- Favicon icon-->
-		<link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon/favicon.ico" />
+		<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon/favicon.ico" />
 
 		<!-- Libs CSS -->
-		<link href="../assets/libs/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet" />
-		<link href="../assets/libs/feather-webfont/dist/feather-icons.css" rel="stylesheet" />
-		<link href="../assets/libs/simplebar/dist/simplebar.min.css" rel="stylesheet" />
+		<link href="assets/libs/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet" />
+		<link href="assets/libs/feather-webfont/dist/feather-icons.css" rel="stylesheet" />
+		<link href="assets/libs/simplebar/dist/simplebar.min.css" rel="stylesheet" />
 
 		<!-- Theme CSS -->
-		<link rel="stylesheet" href="../assets/css/theme.min.css" />
+		<link rel="stylesheet" href="assets/css/theme.min.css" />
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-M8S4MT3EYG"></script>
-
-		<style>
-			.sticky-top.scrolled {
-				top: 0;
-				transition: transform 0.3s ease, background-color 0.3s ease;
-				z-index: 1030; /* Ensure it stays on top */
-				position: fixed; /* Ensure the navbar stays fixed when scrolled */
-				width: 100%;
-				background-color: #fff;
-				border-bottom: 1px solid #dfe2e1;
-			}
-
-			.sticky-top.hidden {
-				transform: translateY(-100%); /* Hide navbar */
-			}
-		</style>
-
-		<script>
-			document.addEventListener("DOMContentLoaded", function () {
-				const navbar = document.querySelector(".sticky-top");
-				let lastScrollTop = 0;
-				let isScrolling = false;
-
-				window.addEventListener("scroll", function () {
-					const scrollTop = window.scrollY;
-
-					// Determine scrolling direction
-					if (scrollTop > lastScrollTop) {
-						// Scrolling down
-						navbar.classList.add("hidden");
-					} else {
-						// Scrolling up
-						navbar.classList.remove("hidden");
-						if (scrollTop > 80) {
-							navbar.classList.add("scrolled");
-						} else {
-							navbar.classList.remove("scrolled");
-						}
-					}
-
-					lastScrollTop = scrollTop <= 80 ? 80 : scrollTop; // Prevent negative scroll
-					isScrolling = true;
-
-					// Reset after scrolling stops
-					clearTimeout(window.scrollTimeout);
-					window.scrollTimeout = setTimeout(() => {
-						isScrolling = false;
-					}, 1000);
-				});
-			});
-		</script>
+ 
 	</head>
 
 	<body>
@@ -149,12 +99,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="py-5 sticky-top">
+			<div class="py-5">
 				<div class="container">
-					<div class="row w-100 align-items-center gx-lg-2 gx-0 justify-content-between">
-						<div class="col-xxl-2 col-lg-2 col-md-6 col-5">
+					<div class="row w-100 align-items-center gx-lg-2 gx-0">
+						<div class="col-xxl-2 col-lg-3 col-md-6 col-5">
 							<a class="navbar-brand d-none d-lg-block" href="index.html">
-								<img src="assets/images/logo/freshcart-logo.svg" style="width: 150px" alt="eCommerce HTML Template" />
+								<img src="assets/images/logo/freshcart-logo.svg" alt="eCommerce HTML Template" />
 							</a>
 							<div class="d-flex justify-content-between w-100 d-lg-none">
 								<a class="navbar-brand" href="index.html">
@@ -162,23 +112,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="col-xxl-2 col-lg-3 col-md-6 col-5 d-none d-lg-block">
-							<ul class="navbar-nav gap-3" style="flex-direction: inherit !important">
-								<li class="nav-item">
-									<a class="nav-link" href="shop.html">Shop</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="">About</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="">Blog</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="">Contact</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-xxl-6 col-lg-5 d-none d-lg-block">
+						<div class="col-xxl-5 col-lg-5 d-none d-lg-block">
 							<form action="#">
 								<div class="input-group">
 									<input class="form-control rounded" type="search" placeholder="Search for products" />
@@ -193,10 +127,17 @@
 								</div>
 							</form>
 						</div>
+						<div class="col-md-2 col-xxl-3 d-none d-lg-block">
+							<!-- Button trigger modal -->
+							<button type="button" class="btn btn-outline-gray-400 text-muted" data-bs-toggle="modal" data-bs-target="#locationModal">
+								<i class="feather-icon icon-map-pin me-2"></i>
+								Location
+							</button>
+						</div>
 						<div class="col-lg-2 col-xxl-2 text-end col-md-6 col-7">
 							<div class="list-inline">
 								<div class="list-inline-item me-5">
-									<a href="pages/shop-wishlist.html" class="text-muted position-relative">
+									<a href="shop-wishlist.html" class="text-muted position-relative">
 										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart">
 											<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
 										</svg>
@@ -241,7 +182,7 @@
 				</div>
 			</div>
 
-			<nav class="navbar navbar-expand-lg navbar-light navbar-default py-0" aria-label="Offcanvas navbar large">
+			<nav class="navbar navbar-expand-lg navbar-light navbar-default py-0 pb-lg-4" aria-label="Offcanvas navbar large">
 				<div class="container">
 					<div class="offcanvas offcanvas-start" tabindex="-1" id="navbar-default" aria-labelledby="navbar-defaultLabel">
 						<div class="offcanvas-header pb-1">
@@ -270,7 +211,7 @@
 									</button>
 								</div>
 							</div>
-							<div class="d-block d-lg-none">
+							<div class="d-block d-lg-none mb-4">
 								<a class="btn btn-primary w-100 d-flex justify-content-center align-items-center" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
 									<span class="me-2">
 										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid">
@@ -285,23 +226,199 @@
 								<div class="collapse mt-2" id="collapseExample">
 									<div class="card card-body">
 										<ul class="mb-0 list-unstyled">
-											<li><a class="dropdown-item" href="pages/shop-grid.html">Dairy, Bread & Eggs</a></li>
-											<li><a class="dropdown-item" href="pages/shop-grid.html">Snacks & Munchies</a></li>
-											<li><a class="dropdown-item" href="pages/shop-grid.html">Fruits & Vegetables</a></li>
-											<li><a class="dropdown-item" href="pages/shop-grid.html">Cold Drinks & Juices</a></li>
-											<li><a class="dropdown-item" href="pages/shop-grid.html">Breakfast & Instant Food</a></li>
-											<li><a class="dropdown-item" href="pages/shop-grid.html">Bakery & Biscuits</a></li>
-											<li><a class="dropdown-item" href="pages/shop-grid.html">Chicken, Meat & Fish</a></li>
+											<li><a class="dropdown-item" href="shop-grid.html">Dairy, Bread & Eggs</a></li>
+											<li><a class="dropdown-item" href="shop-grid.html">Snacks & Munchies</a></li>
+											<li><a class="dropdown-item" href="shop-grid.html">Fruits & Vegetables</a></li>
+											<li><a class="dropdown-item" href="shop-grid.html">Cold Drinks & Juices</a></li>
+											<li><a class="dropdown-item" href="shop-grid.html">Breakfast & Instant Food</a></li>
+											<li><a class="dropdown-item" href="shop-grid.html">Bakery & Biscuits</a></li>
+											<li><a class="dropdown-item" href="shop-grid.html">Chicken, Meat & Fish</a></li>
 										</ul>
 									</div>
 								</div>
+							</div>
+							<div class="dropdown me-3 d-none d-lg-block">
+								<button class="btn btn-primary px-6" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+									<span class="me-1">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid">
+											<rect x="3" y="3" width="7" height="7"></rect>
+											<rect x="14" y="3" width="7" height="7"></rect>
+											<rect x="14" y="14" width="7" height="7"></rect>
+											<rect x="3" y="14" width="7" height="7"></rect>
+										</svg>
+									</span>
+									All Departments
+								</button>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+									<li><a class="dropdown-item" href="shop-grid.html">Dairy, Bread & Eggs</a></li>
+									<li><a class="dropdown-item" href="shop-grid.html">Snacks & Munchies</a></li>
+									<li><a class="dropdown-item" href="shop-grid.html">Fruits & Vegetables</a></li>
+									<li><a class="dropdown-item" href="shop-grid.html">Cold Drinks & Juices</a></li>
+									<li><a class="dropdown-item" href="shop-grid.html">Breakfast & Instant Food</a></li>
+									<li><a class="dropdown-item" href="shop-grid.html">Bakery & Biscuits</a></li>
+									<li><a class="dropdown-item" href="shop-grid.html">Chicken, Meat & Fish</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul class="navbar-nav align-items-center">
+									<li class="nav-item dropdown w-100 w-lg-auto">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="index.html">Home 1</a></li>
+											<li><a class="dropdown-item" href="index-2.html">Home 2</a></li>
+											<li><a class="dropdown-item" href="index-3.html">Home 3</a></li>
+											<li><a class="dropdown-item" href="index-4.html">Home 4</a></li>
+											<li>
+												<a class="dropdown-item" href="index-5.html">Home 5</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item dropdown w-100 w-lg-auto">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="shop-grid.html">Shop Grid - Filter</a></li>
+											<li><a class="dropdown-item" href="shop-grid-3-column.html">Shop Grid - 3 column</a></li>
+											<li><a class="dropdown-item" href="shop-list.html">Shop List - Filter</a></li>
+											<li><a class="dropdown-item" href="shop-filter.html">Shop - Filter</a></li>
+											<li><a class="dropdown-item" href="shop-fullwidth.html">Shop Wide</a></li>
+											<li><a class="dropdown-item" href="shop-single.html">Shop Single</a></li>
+											<li><a class="dropdown-item" href="shop-single-2.html">Shop Single v2</a></li>
+											<li><a class="dropdown-item" href="shop-wishlist.html">Shop Wishlist</a></li>
+											<li><a class="dropdown-item" href="shop-cart.html">Shop Cart</a></li>
+											<li><a class="dropdown-item" href="shop-checkout.html">Shop Checkout</a></li>
+										</ul>
+									</li>
+									<li class="nav-item dropdown w-100 w-lg-auto">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Stores</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="store-list.html">Store List</a></li>
+											<li><a class="dropdown-item" href="store-grid.html">Store Grid</a></li>
+											<li><a class="dropdown-item" href="store-single.html">Store Single</a></li>
+										</ul>
+									</li>
+									<li class="nav-item dropdown w-100 w-lg-auto dropdown-fullwidth">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mega menu</a>
+										<div class="dropdown-menu pb-0">
+											<div class="row p-2 p-lg-4">
+												<div class="col-lg-3 col-12 mb-4 mb-lg-0">
+													<h6 class="text-primary ps-3">Dairy, Bread & Eggs</h6>
+													<a class="dropdown-item" href="shop-grid.html">Butter</a>
+													<a class="dropdown-item" href="shop-grid.html">Milk Drinks</a>
+													<a class="dropdown-item" href="shop-grid.html">Curd & Yogurt</a>
+													<a class="dropdown-item" href="shop-grid.html">Eggs</a>
+													<a class="dropdown-item" href="shop-grid.html">Buns & Bakery</a>
+													<a class="dropdown-item" href="shop-grid.html">Cheese</a>
+													<a class="dropdown-item" href="shop-grid.html">Condensed Milk</a>
+													<a class="dropdown-item" href="shop-grid.html">Dairy Products</a>
+												</div>
+												<div class="col-lg-3 col-12 mb-4 mb-lg-0">
+													<h6 class="text-primary ps-3">Breakfast & Instant Food</h6>
+													<a class="dropdown-item" href="shop-grid.html">Breakfast Cereal</a>
+													<a class="dropdown-item" href="shop-grid.html">Noodles, Pasta & Soup</a>
+													<a class="dropdown-item" href="shop-grid.html">Frozen Veg Snacks</a>
+													<a class="dropdown-item" href="shop-grid.html">Frozen Non-Veg Snacks</a>
+													<a class="dropdown-item" href="shop-grid.html">Vermicelli</a>
+													<a class="dropdown-item" href="shop-grid.html">Instant Mixes</a>
+													<a class="dropdown-item" href="shop-grid.html">Batter</a>
+													<a class="dropdown-item" href="shop-grid.html">Fruit and Juices</a>
+												</div>
+												<div class="col-lg-3 col-12 mb-4 mb-lg-0">
+													<h6 class="text-primary ps-3">Cold Drinks & Juices</h6>
+													<a class="dropdown-item" href="shop-grid.html">Soft Drinks</a>
+													<a class="dropdown-item" href="shop-grid.html">Fruit Juices</a>
+													<a class="dropdown-item" href="shop-grid.html">Coldpress</a>
+													<a class="dropdown-item" href="shop-grid.html">Water & Ice Cubes</a>
+													<a class="dropdown-item" href="shop-grid.html">Soda & Mixers</a>
+													<a class="dropdown-item" href="shop-grid.html">Health Drinks</a>
+													<a class="dropdown-item" href="shop-grid.html">Herbal Drinks</a>
+													<a class="dropdown-item" href="shop-grid.html">Milk Drinks</a>
+												</div>
+												<div class="col-lg-3 col-12 mb-4 mb-lg-0">
+													<div class="card border-0">
+														<img src="assets/images/banner/menu-banner.jpg" alt="eCommerce HTML Template" class="img-fluid" />
+														<div class="position-absolute ps-6 mt-8">
+															<h5 class="mb-0">
+																Dont miss this
+																<br />
+																offer today.
+															</h5>
+															<a href="#" class="btn btn-primary btn-sm mt-3">Shop Now</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="nav-item dropdown w-100 w-lg-auto">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="blog.html">Blog</a></li>
+											<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
+											<li><a class="dropdown-item" href="blog-category.html">Blog Category</a></li>
+											<li><a class="dropdown-item" href="about.html">About us</a></li>
+											<li><a class="dropdown-item" href="404error.html">404 Error</a></li>
+											<li><a class="dropdown-item" href="contact.html">Contact</a></li>
+										</ul>
+									</li>
+									<li class="nav-item dropdown w-100 w-lg-auto">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Account</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="signin.html">Sign in</a></li>
+											<li><a class="dropdown-item" href="signup.html">Signup</a></li>
+											<li><a class="dropdown-item" href="forgot-password.html">Forgot Password</a></li>
+											<li class="dropdown-submenu dropend">
+												<a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">My Account</a>
+												<ul class="dropdown-menu">
+													<li><a class="dropdown-item" href="account-orders.html">Orders</a></li>
+													<li><a class="dropdown-item" href="account-settings.html">Settings</a></li>
+													<li><a class="dropdown-item" href="account-address.html">Address</a></li>
+													<li><a class="dropdown-item" href="account-payment-method.html">Payment Method</a></li>
+													<li><a class="dropdown-item" href="account-notification.html">Notification</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item w-100 w-lg-auto">
+										<a class="nav-link" href="dashboard/index.html">Dashboard</a>
+									</li>
+									<li class="nav-item dropdown w-100 w-lg-auto dropdown-flyout">
+										<a class="nav-link" href="#" id="navbarDropdownDocs" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Docs</a>
+										<div class="dropdown-menu dropdown-menu-lg" aria-labelledby="navbarDropdownDocs">
+											<a class="dropdown-item align-items-start" href="docs/index.html">
+												<div>
+													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-text text-primary" viewBox="0 0 16 16">
+														<path d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z" />
+														<path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z" />
+													</svg>
+												</div>
+												<div class="ms-3 lh-1">
+													<h6 class="mb-1">Documentations</h6>
+													<p class="mb-0 small">Browse the all documentation</p>
+												</div>
+											</a>
+											<a class="dropdown-item align-items-start" href="docs/changelog.html">
+												<div>
+													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-layers text-primary" viewBox="0 0 16 16">
+														<path d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882l-7.5-4zm3.515 7.008L14.438 10 8 13.433 1.562 10 4.25 8.567l3.515 1.874a.5.5 0 0 0 .47 0l3.515-1.874zM8 9.433 1.562 6 8 2.567 14.438 6 8 9.433z" />
+													</svg>
+												</div>
+												<div class="ms-3 lh-1">
+													<h6 class="mb-1">
+														Changelog
+														<span class="text-primary ms-1">v1.3.0</span>
+													</h6>
+													<p class="mb-0 small">See what's new</p>
+												</div>
+											</a>
+										</div>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
 			</nav>
 		</div>
-
 		<!-- Modal -->
 		<div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered">
@@ -347,6 +464,7 @@
 		</div>
 
 		<!-- Shop Cart -->
+
 		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
 			<div class="offcanvas-header border-bottom">
 				<div class="text-start">
@@ -372,7 +490,7 @@
 										<img src="assets/images/products/product-img-1.jpg" alt="Ecommerce" class="icon-shape icon-xxl" />
 										<div class="ms-3">
 											<!-- title -->
-											<a href="pages/shop-single.html" class="text-inherit">
+											<a href="shop-single.html" class="text-inherit">
 												<h6 class="mb-0">Haldiram's Sev Bhujia</h6>
 											</a>
 											<span><small class="text-muted">.98 / lb</small></span>
@@ -417,7 +535,7 @@
 									<div class="d-flex">
 										<img src="assets/images/products/product-img-2.jpg" alt="Ecommerce" class="icon-shape icon-xxl" />
 										<div class="ms-3">
-											<a href="pages/shop-single.html" class="text-inherit">
+											<a href="shop-single.html" class="text-inherit">
 												<h6 class="mb-0">NutriChoice Digestive</h6>
 											</a>
 											<span><small class="text-muted">250g</small></span>
@@ -465,7 +583,7 @@
 										<img src="assets/images/products/product-img-3.jpg" alt="Ecommerce" class="icon-shape icon-xxl" />
 										<div class="ms-3">
 											<!-- title -->
-											<a href="pages/shop-single.html" class="text-inherit">
+											<a href="shop-single.html" class="text-inherit">
 												<h6 class="mb-0">Cadbury 5 Star Chocolate</h6>
 											</a>
 											<span><small class="text-muted">1 kg</small></span>
@@ -514,7 +632,7 @@
 										<div class="ms-3">
 											<!-- title -->
 											<!-- title -->
-											<a href="pages/shop-single.html" class="text-inherit">
+											<a href="shop-single.html" class="text-inherit">
 												<h6 class="mb-0">Onion Flavour Potato</h6>
 											</a>
 											<span><small class="text-muted">250g</small></span>
@@ -562,7 +680,7 @@
 										<img src="assets/images/products/product-img-5.jpg" alt="Ecommerce" class="icon-shape icon-xxl" />
 										<div class="ms-3">
 											<!-- title -->
-											<a href="pages/shop-single.html" class="text-inherit">
+											<a href="shop-single.html" class="text-inherit">
 												<h6 class="mb-0">Salted Instant Popcorn</h6>
 											</a>
 											<span><small class="text-muted">100g</small></span>
@@ -611,16 +729,97 @@
 			</div>
 		</div>
 
-		<main>
-			<div class="card bg-light border-0">
-				<!-- card body -->
-				<div class="container">
-					<div class="card-body p-9 px-0 text-center">
-						<h2 class="mb-0 fs-1">Shop</h2>
+		<!-- Modal -->
+		<div class="modal fade" id="locationModal" tabindex="-1" aria-labelledby="locationModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-body p-6">
+						<div class="d-flex justify-content-between align-items-start">
+							<div>
+								<h5 class="mb-1" id="locationModalLabel">Choose your Delivery Location</h5>
+								<p class="mb-0 small">Enter your address and we will specify the offer you area.</p>
+							</div>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="my-5">
+							<input type="search" class="form-control" placeholder="Search your area" />
+						</div>
+						<div class="d-flex justify-content-between align-items-center mb-2">
+							<h6 class="mb-0">Select Location</h6>
+							<a href="#" class="btn btn-outline-gray-400 text-muted btn-sm">Clear All</a>
+						</div>
+						<div>
+							<div data-simplebar style="height: 300px">
+								<div class="list-group list-group-flush">
+									<a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action active">
+										<span>Alabama</span>
+										<span>Min:$20</span>
+									</a>
+									<a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
+										<span>Alaska</span>
+										<span>Min:$30</span>
+									</a>
+									<a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
+										<span>Arizona</span>
+										<span>Min:$50</span>
+									</a>
+									<a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
+										<span>California</span>
+										<span>Min:$29</span>
+									</a>
+									<a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
+										<span>Colorado</span>
+										<span>Min:$80</span>
+									</a>
+									<a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
+										<span>Florida</span>
+										<span>Min:$90</span>
+									</a>
+									<a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
+										<span>Arizona</span>
+										<span>Min:$50</span>
+									</a>
+									<a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
+										<span>California</span>
+										<span>Min:$29</span>
+									</a>
+									<a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
+										<span>Colorado</span>
+										<span>Min:$80</span>
+									</a>
+									<a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
+										<span>Florida</span>
+										<span>Min:$90</span>
+									</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+ 
 
+		<main>
+			<!-- section-->
+			<div class="mt-4">
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<!-- col -->
+						<div class="col-12">
+							<!-- breadcrumb -->
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb mb-0">
+									<li class="breadcrumb-item"><a href="#!">Home</a></li>
+									<li class="breadcrumb-item"><a href="#!">Shop</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Snacks & Munchies</li>
+								</ol>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
 			<!-- section -->
 			<div class="mt-8 mb-lg-14 mb-8">
 				<!-- container -->
@@ -636,21 +835,291 @@
 								</div>
 								<div class="offcanvas-body ps-lg-2 pt-lg-0">
 									<div class="mb-8">
-										<!-- price -->
-										<h5 class="mb-3">Filter By Price</h5>
-										<div>
-											<!-- range -->
-											<div id="priceRange" class="mb-3"></div>
-											<small class="text-muted">Price:</small>
-											<span id="priceRange-value" class="small"></span>
-										</div>
+										<!-- title -->
+										<h5 class="mb-3">Categories</h5>
+										<!-- nav -->
+										<ul class="nav nav-category" id="categoryCollapseMenu">
+											<li class="nav-item border-bottom w-100">
+												<a href="#" class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#categoryFlushOne" aria-expanded="false" aria-controls="categoryFlushOne">
+													Dairy, Bread & Eggs
+													<i class="feather-icon icon-chevron-right"></i>
+												</a>
+												<!-- accordion collapse -->
+												<div id="categoryFlushOne" class="accordion-collapse collapse" data-bs-parent="#categoryCollapseMenu">
+													<div>
+														<!-- nav -->
+
+														<ul class="nav flex-column ms-3">
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Milk</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Milk Drinks</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Curd & Yogurt</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Eggs</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Bread</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Buns & Bakery</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Butter & More</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Cheese</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Paneer & Tofu</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Cream & Whitener</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Condensed Milk</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Vegan Drinks</a></li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<!-- nav item -->
+											<li class="nav-item border-bottom w-100">
+												<a href="#" class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+													Snacks & Munchies
+													<i class="feather-icon icon-chevron-right"></i>
+												</a>
+
+												<!-- collapse -->
+												<div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#categoryCollapseMenu">
+													<div>
+														<ul class="nav flex-column ms-3">
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Chips & Crisps</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Nachos</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Popcorn</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Bhujia & Mixtures</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Namkeen Snacks</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Healthy Snacks</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Cakes & Rolls</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Energy Bars</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Papad & Fryums</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Rusks & Wafers</a></li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li class="nav-item border-bottom w-100">
+												<a href="#" class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+													Fruits & Vegetables
+													<i class="feather-icon icon-chevron-right"></i>
+												</a>
+
+												<!-- collapse -->
+												<div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#categoryCollapseMenu">
+													<div>
+														<ul class="nav flex-column ms-3">
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link active" aria-current="page" href="#!">Fresh Vegetables</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Herbs & Seasonings</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Fresh Fruits</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Organic Fruits & Vegetables</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Cuts & Sprouts</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Exotic Fruits & Veggies</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Flower Bouquets, Bunches</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li class="nav-item border-bottom w-100">
+												<a href="#" class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+													Cold Drinks & Juices
+													<i class="feather-icon icon-chevron-right"></i>
+												</a>
+
+												<!-- collapse -->
+												<div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#categoryCollapseMenu">
+													<div>
+														<ul class="nav flex-column ms-3">
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Soft Drinks</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Fruit Juices</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Coldpress</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Energy Drinks</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Water & Ice Cubes</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Soda & Mixers</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Concentrates & Syrups</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Detox & Energy Drinks</a></li>
+															<!-- nav item -->
+															<li class="nav-item"><a href="#!" class="nav-link">Juice Collection</a></li>
+														</ul>
+													</div>
+												</div>
+											</li>
+
+											<li class="nav-item border-bottom w-100">
+												<a href="#" class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+													Breakfast & Instant Food
+													<i class="feather-icon icon-chevron-right"></i>
+												</a>
+
+												<!-- collapse -->
+												<div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#categoryCollapseMenu">
+													<div>
+														<ul class="nav flex-column ms-3">
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link active" aria-current="page" href="#!">Batter</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Breakfast Cereal</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Noodles, Pasta & Soup</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Frozen Non-Veg Snackss</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Frozen Veg</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Vermicelli</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Instant Mixes</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li class="nav-item border-bottom w-100">
+												<a href="#" class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+													Bakery & Biscuits
+													<i class="feather-icon icon-chevron-right"></i>
+												</a>
+
+												<!-- collapse -->
+												<div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#categoryCollapseMenu">
+													<div>
+														<ul class="nav flex-column ms-3">
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link active" aria-current="page" href="#!">Cookies</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Glucose & Marie</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Sweet & Salty</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Healthy & Digestive</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Cream Biscuits</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Rusks & Wafers</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Cakes & Rolls</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Buns & Bakery</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li class="nav-item border-bottom w-100">
+												<a href="#" class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+													Chicken, Meat & Fish
+													<i class="feather-icon icon-chevron-right"></i>
+												</a>
+
+												<!-- collapse -->
+												<div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#categoryCollapseMenu">
+													<div>
+														<ul class="nav flex-column ms-3">
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link active" aria-current="page" href="#!">Chicken</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Sausage, Salami & Ham</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Exotic Meat</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Eggs</a>
+															</li>
+															<!-- nav item -->
+															<li class="nav-item">
+																<a class="nav-link" href="#!">Frozen Non-Veg Snacks</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+										</ul>
 									</div>
 
-									<hr />
-
 									<div class="mb-8">
-										<h5 class="mb-3">All Categories</h5>
-
+										<h5 class="mb-3">Stores</h5>
+										<div class="my-4">
+											<!-- input -->
+											<input type="search" class="form-control" placeholder="Search by store" />
+										</div>
+										<!-- form check -->
 										<div class="form-check mb-2">
 											<!-- input -->
 											<input class="form-check-input" type="checkbox" value="" id="eGrocery" checked />
@@ -699,75 +1168,118 @@
 											<label class="form-check-label" for="onlineGrocery">Online Grocery</label>
 										</div>
 									</div>
-
-									<hr />
-
+									<div class="mb-8">
+										<!-- price -->
+										<h5 class="mb-3">Price</h5>
+										<div>
+											<!-- range -->
+											<div id="priceRange" class="mb-3"></div>
+											<small class="text-muted">Price:</small>
+											<span id="priceRange-value" class="small"></span>
+										</div>
+									</div>
+									<!-- rating -->
+									<div class="mb-8">
+										<h5 class="mb-3">Rating</h5>
+										<div>
+											<!-- form check -->
+											<div class="form-check mb-2">
+												<!-- input -->
+												<input class="form-check-input" type="checkbox" value="" id="ratingFive" />
+												<label class="form-check-label" for="ratingFive">
+													<i class="bi bi-star-fill text-warning"></i>
+													<i class="bi bi-star-fill text-warning"></i>
+													<i class="bi bi-star-fill text-warning"></i>
+													<i class="bi bi-star-fill text-warning"></i>
+													<i class="bi bi-star-fill text-warning"></i>
+												</label>
+											</div>
+											<!-- form check -->
+											<div class="form-check mb-2">
+												<!-- input -->
+												<input class="form-check-input" type="checkbox" value="" id="ratingFour" checked />
+												<label class="form-check-label" for="ratingFour">
+													<i class="bi bi-star-fill text-warning"></i>
+													<i class="bi bi-star-fill text-warning"></i>
+													<i class="bi bi-star-fill text-warning"></i>
+													<i class="bi bi-star-fill text-warning"></i>
+													<i class="bi bi-star text-warning"></i>
+												</label>
+											</div>
+											<!-- form check -->
+											<div class="form-check mb-2">
+												<!-- input -->
+												<input class="form-check-input" type="checkbox" value="" id="ratingThree" />
+												<label class="form-check-label" for="ratingThree">
+													<i class="bi bi-star-fill text-warning"></i>
+													<i class="bi bi-star-fill text-warning"></i>
+													<i class="bi bi-star-fill text-warning"></i>
+													<i class="bi bi-star text-warning"></i>
+													<i class="bi bi-star text-warning"></i>
+												</label>
+											</div>
+											<!-- form check -->
+											<div class="form-check mb-2">
+												<!-- input -->
+												<input class="form-check-input" type="checkbox" value="" id="ratingTwo" />
+												<label class="form-check-label" for="ratingTwo">
+													<i class="bi bi-star-fill text-warning"></i>
+													<i class="bi bi-star-fill text-warning"></i>
+													<i class="bi bi-star text-warning"></i>
+													<i class="bi bi-star text-warning"></i>
+													<i class="bi bi-star text-warning"></i>
+												</label>
+											</div>
+											<!-- form check -->
+											<div class="form-check mb-2">
+												<!-- input -->
+												<input class="form-check-input" type="checkbox" value="" id="ratingOne" />
+												<label class="form-check-label" for="ratingOne">
+													<i class="bi bi-star-fill text-warning"></i>
+													<i class="bi bi-star text-warning"></i>
+													<i class="bi bi-star text-warning"></i>
+													<i class="bi bi-star text-warning"></i>
+													<i class="bi bi-star text-warning"></i>
+												</label>
+											</div>
+										</div>
+									</div>
 									<div class="mb-8 position-relative">
-										<h5 class="mb-3">Top Rated Products</h5>
-										<div class="row align-items-center">
-											<div class="col-4">
-												<img src="../assets/images/products/product-img-1.jpg" alt="Grocery Ecommerce Template" class="img-fluid" />
-											</div>
-											<div class="col-8 ps-0">
-												<div class="text-small mb-1">
-													<a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
-												</div>
-												<h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
-												<div>
-													<span class="text-dark">$18</span>
-													<span class="text-decoration-line-through text-muted">$24</span>
-												</div>
-											</div>
+										<!-- Banner Design -->
+										<!-- Banner Content -->
+										<div class="position-absolute p-5 py-8">
+											<h3 class="mb-0">Fresh Fruits</h3>
+											<p>Get Upto 25% Off</p>
+											<a href="#" class="btn btn-dark">
+												Shop Now
+												<i class="feather-icon icon-arrow-right ms-1"></i>
+											</a>
 										</div>
-										<hr />
-										<div class="row align-items-center">
-											<div class="col-4">
-												<img src="../assets/images/products/product-img-1.jpg" alt="Grocery Ecommerce Template" class="img-fluid" />
-											</div>
-											<div class="col-8 ps-0">
-												<div class="text-small mb-1">
-													<a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
-												</div>
-												<h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
-												<div>
-													<span class="text-dark">$18</span>
-													<span class="text-decoration-line-through text-muted">$24</span>
-												</div>
-											</div>
-										</div>
-										<hr />
-										<div class="row align-items-center">
-											<div class="col-4">
-												<img src="../assets/images/products/product-img-1.jpg" alt="Grocery Ecommerce Template" class="img-fluid" />
-											</div>
-											<div class="col-8 ps-0">
-												<div class="text-small mb-1">
-													<a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
-												</div>
-												<h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
-												<div>
-													<span class="text-dark">$18</span>
-													<span class="text-decoration-line-through text-muted">$24</span>
-												</div>
-											</div>
-										</div>
+										<!-- Banner Content -->
+										<!-- Banner Image -->
+										<!-- img -->
+										<img src="assets/images/banner/assortment-citrus-fruits.png" alt="" class="img-fluid rounded" />
+										<!-- Banner Image -->
 									</div>
 								</div>
 							</div>
 						</aside>
 						<section class="col-lg-9 col-md-12">
+							<!-- card -->
+							<div class="card mb-4 bg-light border-0">
+								<!-- card body -->
+								<div class="card-body p-9">
+									<h2 class="mb-0 fs-1">Snacks & Munchies</h2>
+								</div>
+							</div>
 							<!-- list icon -->
 							<div class="d-lg-flex justify-content-between align-items-center">
-								<!-- breadcrumb -->
 								<div class="mb-3 mb-lg-0">
-									<nav aria-label="breadcrumb">
-										<ol class="breadcrumb mb-0">
-											<li class="breadcrumb-item"><a href="">Home</a></li>
-											<li class="breadcrumb-item active">Shop</li>
-										</ol>
-									</nav>
+									<p class="mb-0">
+										<span class="text-dark">24</span>
+										Products found
+									</p>
 								</div>
-								<!-- breadcrumb -->
 
 								<!-- icon -->
 								<div class="d-md-flex justify-content-between align-items-center">
@@ -824,7 +1336,7 @@
 												</div>
 												<a href="shop-single.html">
 													<!-- img -->
-													<img src="../assets/images/products/product-img-1.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" />
+													<img src="assets/images/products/product-img-1.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" />
 												</a>
 												<!-- action btn -->
 												<div class="card-product-action">
@@ -840,13 +1352,33 @@
 												<a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
 											</div>
 											<h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
-
 											<div>
-												<span class="text-dark">$34</span>
-												<span class="text-muted text-decoration-line-through ms-1">$38</span>
+												<!-- rating -->
+												<small class="text-warning">
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-half"></i>
+												</small>
+												<span class="text-muted small">4.5(149)</span>
 											</div>
-											<div class="mt-3">
-												<a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+											<!-- price -->
+											<div class="d-flex justify-content-between align-items-center mt-3">
+												<div>
+													<span class="text-dark">$18</span>
+													<span class="text-decoration-line-through text-muted">$24</span>
+												</div>
+												<!-- btn -->
+												<div>
+													<a href="#!" class="btn btn-primary btn-sm">
+														<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+															<line x1="12" y1="5" x2="12" y2="19"></line>
+															<line x1="5" y1="12" x2="19" y2="12"></line>
+														</svg>
+														Add
+													</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -864,7 +1396,7 @@
 
 												<a href="shop-single.html">
 													<!-- img -->
-													<img src="../assets/images/products/product-img-2.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" />
+													<img src="assets/images/products/product-img-2.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" />
 												</a>
 												<!-- action btn -->
 												<div class="card-product-action">
@@ -880,12 +1412,30 @@
 												<a href="#!" class="text-decoration-none text-muted"><small>Bakery & Biscuits</small></a>
 											</div>
 											<h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">NutriChoice Digestive</a></h2>
-											<div>
-												<span class="text-dark">$34</span>
-												<span class="text-muted text-decoration-line-through ms-1">$38</span>
+											<div class="text-warning">
+												<!-- rating -->
+												<small>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-half"></i>
+												</small>
+												<span class="text-muted small">4.5 (25)</span>
 											</div>
-											<div class="mt-3">
-												<a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+											<!-- price -->
+											<div class="d-flex justify-content-between align-items-center mt-3">
+												<div><span class="text-dark">$24</span></div>
+												<!-- btn -->
+												<div>
+													<a href="#!" class="btn btn-primary btn-sm">
+														<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+															<line x1="12" y1="5" x2="12" y2="19"></line>
+															<line x1="5" y1="12" x2="19" y2="12"></line>
+														</svg>
+														Add
+													</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -897,7 +1447,7 @@
 										<div class="card-body">
 											<!-- badge -->
 											<div class="text-center position-relative">
-												<a href="shop-single.html"><img src="../assets/images/products/product-img-3.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+												<a href="shop-single.html"><img src="assets/images/products/product-img-3.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
 												<!-- action btn -->
 												<div class="card-product-action">
 													<a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
@@ -912,12 +1462,33 @@
 												<a href="#!" class="text-decoration-none text-muted"><small>Bakery & Biscuits</small></a>
 											</div>
 											<h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Cadbury 5 Star Chocolate</a></h2>
-											<div>
-												<span class="text-dark">$34</span>
-												<span class="text-muted text-decoration-line-through ms-1">$38</span>
+											<div class="text-warning">
+												<!-- rating -->
+												<small>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+												</small>
+												<span class="text-muted small">5 (469)</span>
 											</div>
-											<div class="mt-3">
-												<a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+											<!-- price -->
+											<div class="d-flex justify-content-between align-items-center mt-3">
+												<div>
+													<span class="text-dark">$32</span>
+													<span class="text-decoration-line-through text-muted">$35</span>
+												</div>
+												<!-- btn -->
+												<div>
+													<a href="#!" class="btn btn-primary btn-sm">
+														<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+															<line x1="12" y1="5" x2="12" y2="19"></line>
+															<line x1="5" y1="12" x2="19" y2="12"></line>
+														</svg>
+														Add
+													</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -935,7 +1506,7 @@
 
 												<a href="shop-single.html">
 													<!-- img -->
-													<img src="../assets/images/products/product-img-4.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" />
+													<img src="assets/images/products/product-img-4.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" />
 												</a>
 												<!-- action btn -->
 												<div class="card-product-action">
@@ -951,12 +1522,33 @@
 												<a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
 											</div>
 											<h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Onion Flavour Potato</a></h2>
-											<div>
-												<span class="text-dark">$34</span>
-												<span class="text-muted text-decoration-line-through ms-1">$38</span>
+											<div class="text-warning">
+												<!-- rating -->
+												<small>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-half"></i>
+													<i class="bi bi-star"></i>
+												</small>
+												<span class="text-muted small">3.5 (456)</span>
 											</div>
-											<div class="mt-3">
-												<a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+											<!-- price -->
+											<div class="d-flex justify-content-between align-items-center mt-3">
+												<div>
+													<span class="text-dark">$3</span>
+													<span class="text-decoration-line-through text-muted">$5</span>
+												</div>
+												<!-- btn -->
+												<div>
+													<a href="#!" class="btn btn-primary btn-sm">
+														<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+															<line x1="12" y1="5" x2="12" y2="19"></line>
+															<line x1="5" y1="12" x2="19" y2="12"></line>
+														</svg>
+														Add
+													</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -968,7 +1560,7 @@
 										<div class="card-body">
 											<!-- badge -->
 											<div class="text-center position-relative">
-												<a href="shop-single.html"><img src="../assets/images/products/product-img-5.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+												<a href="shop-single.html"><img src="assets/images/products/product-img-5.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
 												<!-- action btn -->
 												<div class="card-product-action">
 													<a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
@@ -983,12 +1575,32 @@
 												<a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
 											</div>
 											<h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Salted Instant Popcorn</a></h2>
-											<div>
-												<span class="text-dark">$34</span>
-												<span class="text-muted text-decoration-line-through ms-1">$38</span>
+											<div class="text-warning">
+												<!-- rating -->
+												<small>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-half"></i>
+												</small>
+												<span class="text-muted small">4.5 (39)</span>
 											</div>
-											<div class="mt-3">
-												<a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+											<div class="d-flex justify-content-between mt-4">
+												<div>
+													<span class="text-dark">$13</span>
+													<span class="text-decoration-line-through text-muted">$18</span>
+												</div>
+												<!-- btn -->
+												<div>
+													<a href="#!" class="btn btn-primary btn-sm">
+														<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+															<line x1="12" y1="5" x2="12" y2="19"></line>
+															<line x1="5" y1="12" x2="19" y2="12"></line>
+														</svg>
+														Add
+													</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -1005,7 +1617,7 @@
 												</div>
 												<a href="shop-single.html">
 													<!-- img -->
-													<img src="../assets/images/products/product-img-6.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" />
+													<img src="assets/images/products/product-img-6.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" />
 												</a>
 												<!-- action btn -->
 												<div class="card-product-action">
@@ -1022,11 +1634,32 @@
 											</div>
 											<h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Blueberry Greek Yogurt</a></h2>
 											<div>
-												<span class="text-dark">$34</span>
-												<span class="text-muted text-decoration-line-through ms-1">$38</span>
+												<!-- rating -->
+												<small class="text-warning">
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-half"></i>
+												</small>
+												<span class="text-muted small">4.5 (189)</span>
 											</div>
-											<div class="mt-3">
-												<a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+											<!-- price -->
+											<div class="d-flex justify-content-between align-items-center mt-3">
+												<div>
+													<span class="text-dark">$18</span>
+													<span class="text-decoration-line-through text-muted">$24</span>
+												</div>
+												<!-- btn -->
+												<div>
+													<a href="#!" class="btn btn-primary btn-sm">
+														<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+															<line x1="12" y1="5" x2="12" y2="19"></line>
+															<line x1="5" y1="12" x2="19" y2="12"></line>
+														</svg>
+														Add
+													</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -1038,7 +1671,7 @@
 										<div class="card-body">
 											<!-- badge -->
 											<div class="text-center position-relative">
-												<a href="shop-single.html"><img src="../assets/images/products/product-img-7.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+												<a href="shop-single.html"><img src="assets/images/products/product-img-7.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
 												<!-- action btn -->
 												<div class="card-product-action">
 													<a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
@@ -1053,12 +1686,30 @@
 												<a href="#!" class="text-decoration-none text-muted"><small>Dairy, Bread & Eggs</small></a>
 											</div>
 											<h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Britannia Cheese Slices</a></h2>
-											<div>
-												<span class="text-dark">$34</span>
-												<span class="text-muted text-decoration-line-through ms-1">$38</span>
+											<div class="text-warning">
+												<!-- rating -->
+												<small>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+												</small>
+												<span class="text-muted small">5 (345)</span>
 											</div>
-											<div class="mt-3">
-												<a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+											<!-- price -->
+											<div class="d-flex justify-content-between align-items-center mt-3">
+												<div><span class="text-dark">$24</span></div>
+												<!-- btn -->
+												<div>
+													<a href="#!" class="btn btn-primary btn-sm">
+														<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+															<line x1="12" y1="5" x2="12" y2="19"></line>
+															<line x1="5" y1="12" x2="19" y2="12"></line>
+														</svg>
+														Add
+													</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -1070,7 +1721,7 @@
 										<div class="card-body">
 											<!-- badge -->
 											<div class="text-center position-relative">
-												<a href="shop-single.html"><img src="../assets/images/products/product-img-8.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+												<a href="shop-single.html"><img src="assets/images/products/product-img-8.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
 												<!-- action btn -->
 												<div class="card-product-action">
 													<a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
@@ -1085,12 +1736,138 @@
 												<a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
 											</div>
 											<h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Kellogg's Original Cereals</a></h2>
-											<div>
-												<span class="text-dark">$34</span>
-												<span class="text-muted text-decoration-line-through ms-1">$38</span>
+											<div class="text-warning">
+												<!-- rating -->
+												<small>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-half"></i>
+												</small>
+												<span class="text-muted small">4 (90)</span>
 											</div>
-											<div class="mt-3">
-												<a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+											<!-- price -->
+											<div class="d-flex justify-content-between align-items-center mt-3">
+												<div>
+													<span class="text-dark">$32</span>
+													<span class="text-decoration-line-through text-muted">$35</span>
+												</div>
+												<!-- btn -->
+												<div>
+													<a href="#!" class="btn btn-primary btn-sm">
+														<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+															<line x1="12" y1="5" x2="12" y2="19"></line>
+															<line x1="5" y1="12" x2="19" y2="12"></line>
+														</svg>
+														Add
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- col -->
+								<div class="col">
+									<!-- card -->
+									<div class="card card-product">
+										<div class="card-body">
+											<!-- badge -->
+											<div class="text-center position-relative">
+												<a href="shop-single.html"><img src="assets/images/products/product-img-9.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+												<!-- action btn -->
+												<div class="card-product-action">
+													<a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
+														<i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View"></i>
+													</a>
+													<a href="shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
+													<a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Compare"><i class="bi bi-arrow-left-right"></i></a>
+												</div>
+											</div>
+											<!-- heading -->
+											<div class="text-small mb-1">
+												<a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
+											</div>
+											<h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Slurrp Millet Chocolate</a></h2>
+											<div class="text-warning">
+												<!-- rating -->
+												<small>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-half"></i>
+												</small>
+												<span class="text-muted small">4.5 (67)</span>
+											</div>
+											<!-- price -->
+											<div class="d-flex justify-content-between align-items-center mt-3">
+												<div>
+													<span class="text-dark">$3</span>
+													<span class="text-decoration-line-through text-muted">$5</span>
+												</div>
+												<!-- btn -->
+												<div>
+													<a href="#!" class="btn btn-primary btn-sm">
+														<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+															<line x1="12" y1="5" x2="12" y2="19"></line>
+															<line x1="5" y1="12" x2="19" y2="12"></line>
+														</svg>
+														Add
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- col -->
+								<div class="col">
+									<!-- card -->
+									<div class="card card-product">
+										<div class="card-body">
+											<!-- badge -->
+											<div class="text-center position-relative">
+												<a href="shop-single.html"><img src="assets/images/products/product-img-10.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+												<!-- action btn -->
+												<div class="card-product-action">
+													<a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
+														<i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View"></i>
+													</a>
+													<a href="shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
+													<a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Compare"><i class="bi bi-arrow-left-right"></i></a>
+												</div>
+											</div>
+											<!-- heading -->
+											<div class="text-small mb-1">
+												<a href="#!" class="text-decoration-none text-muted"><small>Dairy, Bread & Eggs</small></a>
+											</div>
+											<h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Amul Butter - 500 g</a></h2>
+											<div class="text-warning">
+												<!-- rating -->
+												<small>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-half"></i>
+													<i class="bi bi-star"></i>
+												</small>
+												<span class="text-muted small">3.5 (89)</span>
+											</div>
+											<div class="d-flex justify-content-between mt-4">
+												<div>
+													<span class="text-dark">$13</span>
+													<span class="text-decoration-line-through text-muted">$18</span>
+												</div>
+												<!-- btn -->
+												<div>
+													<a href="#!" class="btn btn-primary btn-sm">
+														<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+															<line x1="12" y1="5" x2="12" y2="19"></line>
+															<line x1="5" y1="12" x2="19" y2="12"></line>
+														</svg>
+														Add
+													</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -1126,6 +1903,7 @@
 			</div>
 		</main>
 
+		<!-- modal -->
 		<!-- Modal -->
 		<div class="modal fade" id="quickViewModal" tabindex="-1" aria-hidden="true">
 			<div class="modal-dialog modal-xl modal-dialog-centered">
@@ -1276,6 +2054,7 @@
 			</div>
 		</div>
 
+		<!-- Footer -->
 		<!-- footer -->
 		<footer class="footer">
 			<div class="container">
@@ -1334,7 +2113,7 @@
 									<li class="nav-item mb-2"><a href="#!" class="nav-link">Shipping</a></li>
 									<li class="nav-item mb-2"><a href="#!" class="nav-link">Product Returns</a></li>
 									<li class="nav-item mb-2"><a href="#!" class="nav-link">FAQ</a></li>
-									<li class="nav-item mb-2"><a href="pages/shop-checkout.html" class="nav-link">Shop Checkout</a></li>
+									<li class="nav-item mb-2"><a href="shop-checkout.html" class="nav-link">Shop Checkout</a></li>
 								</ul>
 							</div>
 							<div class="col-6 col-sm-6 col-md-3">
@@ -1445,18 +2224,20 @@
 		</footer>
 
 		<!-- Javascript-->
-		<script src="../assets/libs/nouislider/dist/nouislider.min.js"></script>
-		<script src="../assets/libs/wnumb/wNumb.min.js"></script>
+		<script src="assets/libs/nouislider/dist/nouislider.min.js"></script>
+		<script src="assets/libs/wnumb/wNumb.min.js"></script>
 		<!-- Libs JS -->
-		<!-- <script src="../assets/libs/jquery/dist/jquery.min.js"></script> -->
-		<script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-		<script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+		<!-- <script src="assets/libs/jquery/dist/jquery.min.js"></script> -->
+		<script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/libs/simplebar/dist/simplebar.min.js"></script>
 
 		<!-- Theme JS -->
-		<script src="../assets/js/theme.min.js"></script>
+		<script src="assets/js/theme.min.js"></script>
 
-		<script src="../assets/libs/tiny-slider/dist/min/tiny-slider.js"></script>
-		<script src="../assets/js/vendors/tns-slider.js"></script>
-		<script src="../assets/js/vendors/zoom.js"></script>
+		<script src="assets/libs/tiny-slider/dist/min/tiny-slider.js"></script>
+		<script src="assets/js/vendors/tns-slider.js"></script>
+		<script src="assets/js/vendors/zoom.js"></script>
 	</body>
+
+	<!-- Mirrored from freshcart.codescandy.com/pages/shop-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Jan 2025 17:31:13 GMT -->
 </html>
