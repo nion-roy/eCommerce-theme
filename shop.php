@@ -98,7 +98,7 @@
                                             <div class="text-small mb-1">
                                                 <a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
                                             </div>
-                                            <h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                                            <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
                                             <div>
                                                 <span class="text-dark">$18</span>
                                                 <span class="text-decoration-line-through text-muted">$24</span>
@@ -114,7 +114,7 @@
                                             <div class="text-small mb-1">
                                                 <a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
                                             </div>
-                                            <h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                                            <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
                                             <div>
                                                 <span class="text-dark">$18</span>
                                                 <span class="text-decoration-line-through text-muted">$24</span>
@@ -130,7 +130,7 @@
                                             <div class="text-small mb-1">
                                                 <a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
                                             </div>
-                                            <h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                                            <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
                                             <div>
                                                 <span class="text-dark">$18</span>
                                                 <span class="text-decoration-line-through text-muted">$24</span>
@@ -207,7 +207,7 @@
                                             <div class="position-absolute top-0 start-0">
                                                 <span class="badge bg-danger">Sale</span>
                                             </div>
-                                            <a href="shop-single.html">
+                                            <a href="shop-single.php">
                                                 <!-- img -->
                                                 <img src="assets/images/products/product-img-1.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" />
                                             </a>
@@ -224,7 +224,7 @@
                                         <div class="text-small mb-1">
                                             <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
                                         </div>
-                                        <h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
 
                                         <div>
                                             <span class="text-dark">$34</span>
@@ -247,7 +247,7 @@
                                                 <span class="badge bg-success">14%</span>
                                             </div>
 
-                                            <a href="shop-single.html">
+                                            <a href="shop-single.php">
                                                 <!-- img -->
                                                 <img src="assets/images/products/product-img-2.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" />
                                             </a>
@@ -264,7 +264,7 @@
                                         <div class="text-small mb-1">
                                             <a href="#!" class="text-decoration-none text-muted"><small>Bakery & Biscuits</small></a>
                                         </div>
-                                        <h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">NutriChoice Digestive</a></h2>
+                                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">NutriChoice Digestive</a></h2>
                                         <div>
                                             <span class="text-dark">$34</span>
                                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
@@ -282,7 +282,7 @@
                                     <div class="card-body">
                                         <!-- badge -->
                                         <div class="text-center position-relative">
-                                            <a href="shop-single.html"><img src="assets/images/products/product-img-3.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                                            <a href="shop-single.php"><img src="assets/images/products/product-img-3.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
                                             <!-- action btn -->
                                             <div class="card-product-action">
                                                 <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
@@ -296,7 +296,7 @@
                                         <div class="text-small mb-1">
                                             <a href="#!" class="text-decoration-none text-muted"><small>Bakery & Biscuits</small></a>
                                         </div>
-                                        <h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Cadbury 5 Star Chocolate</a></h2>
+                                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Cadbury 5 Star Chocolate</a></h2>
                                         <div>
                                             <span class="text-dark">$34</span>
                                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
@@ -318,7 +318,7 @@
                                                 <span class="badge bg-danger">Hot</span>
                                             </div>
 
-                                            <a href="shop-single.html">
+                                            <a href="shop-single.php">
                                                 <!-- img -->
                                                 <img src="assets/images/products/product-img-4.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" />
                                             </a>
@@ -335,7 +335,7 @@
                                         <div class="text-small mb-1">
                                             <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
                                         </div>
-                                        <h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Onion Flavour Potato</a></h2>
+                                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Onion Flavour Potato</a></h2>
                                         <div>
                                             <span class="text-dark">$34</span>
                                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
@@ -353,7 +353,7 @@
                                     <div class="card-body">
                                         <!-- badge -->
                                         <div class="text-center position-relative">
-                                            <a href="shop-single.html"><img src="assets/images/products/product-img-5.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                                            <a href="shop-single.php"><img src="assets/images/products/product-img-5.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
                                             <!-- action btn -->
                                             <div class="card-product-action">
                                                 <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
@@ -367,7 +367,7 @@
                                         <div class="text-small mb-1">
                                             <a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
                                         </div>
-                                        <h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Salted Instant Popcorn</a></h2>
+                                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Salted Instant Popcorn</a></h2>
                                         <div>
                                             <span class="text-dark">$34</span>
                                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
@@ -388,7 +388,7 @@
                                             <div class="position-absolute top-0">
                                                 <span class="badge bg-danger">Sale</span>
                                             </div>
-                                            <a href="shop-single.html">
+                                            <a href="shop-single.php">
                                                 <!-- img -->
                                                 <img src="assets/images/products/product-img-6.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" />
                                             </a>
@@ -405,7 +405,7 @@
                                         <div class="text-small mb-1">
                                             <a href="#!" class="text-decoration-none text-muted"><small>Dairy, Bread & Eggs</small></a>
                                         </div>
-                                        <h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Blueberry Greek Yogurt</a></h2>
+                                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Blueberry Greek Yogurt</a></h2>
                                         <div>
                                             <span class="text-dark">$34</span>
                                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
@@ -423,7 +423,7 @@
                                     <div class="card-body">
                                         <!-- badge -->
                                         <div class="text-center position-relative">
-                                            <a href="shop-single.html"><img src="assets/images/products/product-img-7.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                                            <a href="shop-single.php"><img src="assets/images/products/product-img-7.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
                                             <!-- action btn -->
                                             <div class="card-product-action">
                                                 <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
@@ -437,7 +437,7 @@
                                         <div class="text-small mb-1">
                                             <a href="#!" class="text-decoration-none text-muted"><small>Dairy, Bread & Eggs</small></a>
                                         </div>
-                                        <h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Britannia Cheese Slices</a></h2>
+                                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Britannia Cheese Slices</a></h2>
                                         <div>
                                             <span class="text-dark">$34</span>
                                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
@@ -455,7 +455,7 @@
                                     <div class="card-body">
                                         <!-- badge -->
                                         <div class="text-center position-relative">
-                                            <a href="shop-single.html"><img src="assets/images/products/product-img-8.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                                            <a href="shop-single.php"><img src="assets/images/products/product-img-8.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
                                             <!-- action btn -->
                                             <div class="card-product-action">
                                                 <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
@@ -469,7 +469,7 @@
                                         <div class="text-small mb-1">
                                             <a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
                                         </div>
-                                        <h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">Kellogg's Original Cereals</a></h2>
+                                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Kellogg's Original Cereals</a></h2>
                                         <div>
                                             <span class="text-dark">$34</span>
                                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
