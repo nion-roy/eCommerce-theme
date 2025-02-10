@@ -29,6 +29,19 @@
 <link rel="stylesheet" href="assets/css/theme.min.css" />
 
 <style>
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+
     .sticky-top {
         position: sticky;
         top: 0;
@@ -66,6 +79,27 @@
 
     .modal.slideUpIn .modal-dialog {
         animation: slideUpIn 0.4s ease-out;
+    }
+
+    .table-borderless tbody td {
+        padding: 4px 0;
+    }
+
+    .product_quantity .quantity {
+        width: 50px;
+        text-align: center;
+        padding: 4px 0;
+        border: 1px solid #f0f3f2;
+        border-radius: 4px !important;
+    }
+
+    .product_quantity button {
+        border: none;
+        background-color: #f0f3f2;
+        padding: 3px 8px;
+        font-size: 16px;
+        color: #000;
+        border-radius: 4px !important;
     }
 </style>
 

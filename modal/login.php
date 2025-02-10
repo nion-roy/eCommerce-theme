@@ -29,7 +29,7 @@
                             <!-- label -->
                             <label class="form-check-label" for="flexCheckDefault">Remember me</label>
                         </div>
-                        <div> Forgot password? <a href="forgot-password.html">Reset It</a></div>
+                        <div> Forgot password? <a href="forgot-password.php">Reset It</a></div>
                     </div>
                     <div class="col-12 d-grid"><button type="submit" class="btn btn-primary">Sign In</button></div>
                 </div>

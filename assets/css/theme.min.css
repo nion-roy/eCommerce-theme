@@ -23393,15 +23393,30 @@ table tr:last-child td {
 	display: none !important;
 }
 .slider-nav .slick-prev {
-	left: 40px;
-	top: 84%;
+	left: 24px;
+	top: 94%;
 	z-index: 1;
 }
 .slider-nav .slick-next {
 	left: auto;
-	right: -10px;
-	top: 84%;
+	right: -18px;
+	top: 94%;
 }
+
+@media screen and (max-width: 767px) {
+    .slider-nav .slick-prev {
+        left: 42px;
+        top: 110% !important;
+        z-index: 1;
+    }
+    .slider-nav .slick-next {
+        left: auto;
+        right: 0px;
+        top: 110% !important;
+    }
+}
+
+
 .slider-nav .slick-slide.slick-current img {
 	border: 2px solid var(--fc-primary);
 }

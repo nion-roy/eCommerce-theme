@@ -17,13 +17,13 @@
     <!-- navbar -->
 
     <main>
-        <section class="mt-8">
+        <section class="my-lg-14 my-8">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-12 col-md-6 col-lg-4 order-lg-1 order-2">
+                    <div class="col-12 col-md-6 col-lg-3 order-lg-1 order-2">
                         <img src="assets/images/svg-graphics/signup-g.svg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-12 col-md-6 offset-lg-1 col-lg-4 order-lg-2 order-1">
+                    <div class="col-12 col-md-6 offset-lg-1 col-lg-5 order-lg-2 order-1">
                         <div class="mb-lg-9 mb-5">
                             <h1 class="mb-1 h2 fw-bold">Get Start Shopping</h1>
                             <p>Welcome to FreshCart! Enter your email to get started.</p>

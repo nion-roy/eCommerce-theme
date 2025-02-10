@@ -9,41 +9,6 @@
     <title>Homepage</title>
 
     <?php include 'header.php'  ?>
-
-    <style>
-        /* Chrome, Safari, Edge, Opera */
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-            margin: 0;
-        }
-
-        /* Firefox */
-        input[type=number] {
-            -moz-appearance: textfield;
-        }
-
-        .table-borderless tbody td {
-            padding: 4px 0;
-        }
-
-        .product_quantity .quantity {
-            width: 50px;
-            text-align: center;
-            padding: 4px 0;
-            border: 1px solid #f0f3f2;
-            border-radius: 4px !important;
-        }
-
-        .product_quantity button {
-            border: none;
-            background-color: #f0f3f2;
-            padding: 3px 8px;
-            font-size: 16px;
-            color: #000;
-            border-radius: 4px !important;
-        }
-    </style>
 </head>
 
 <body>
@@ -213,17 +178,17 @@
                             <div class="mt-3 row justify-content-start g-2 align-items-center">
                                 <div class="col-xxl-4 col-lg-4 col-md-5 col-5 d-grid">
                                     <button type="button" class="btn btn-primary">
-                                        <i class="feather-icon icon-shopping-bag me-2"></i>
+                                        <i class="bi bi-bag me-2"></i>
                                         Buy Now
                                     </button>
-                                    
+
                                 </div>
                                 <div class="col-xxl-4 col-lg-4 col-md-5 col-5 d-grid">
                                     <button type="button" class="btn btn-primary">
                                         <i class="feather-icon icon-shopping-bag me-2"></i>
                                         Add to cart
                                     </button>
-                                    
+
                                 </div>
                                 <div class="col-md-4 col-4">
                                     <!-- <a class="btn btn-light" href="#" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Compare"><i class="bi bi-arrow-left-right"></i></a> -->
@@ -237,10 +202,6 @@
                                         <tr>
                                             <td>Product Code:</td>
                                             <td>FBB00255</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Availability:</td>
-                                            <td>In Stock</td>
                                         </tr>
                                         <tr>
                                             <td>Type:</td>
@@ -258,36 +219,20 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <div class="mt-8">
-                                <!-- dropdown -->
-                                <div class="dropdown">
-                                    <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Share</a>
-
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="bi bi-facebook me-2"></i>
-                                                Facebook
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="bi bi-twitter me-2"></i>
-                                                Twitter
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="bi bi-instagram me-2"></i>
-                                                Instagram
-                                            </a>
-                                        </li>
-                                    </ul>
+                            <div class="mt-4">
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="m-0 fs-5">Share:</h5>
+                                    <div>
+                                        <a class="mx-1 fs-5" href="#"><i class="bi bi-facebook"></i></a>
+                                        <a class="mx-1 fs-5" href="#"><i class="bi bi-twitter"></i></a>
+                                        <a class="mx-1 fs-5" href="#"><i class="bi bi-instagram"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
         <section class="mt-lg-14 mt-8">
@@ -295,71 +240,18 @@
                 <div class="row">
                     <div class="col-md-12">
                         <ul class="nav nav-pills nav-lb-tab" id="myTab" role="tablist">
-                            <!-- nav item -->
                             <li class="nav-item" role="presentation">
-                                <!-- btn -->
-                                <button
-                                    class="nav-link active"
-                                    id="product-tab"
-                                    data-bs-toggle="tab"
-                                    data-bs-target="#product-tab-pane"
-                                    type="button"
-                                    role="tab"
-                                    aria-controls="product-tab-pane"
-                                    aria-selected="true">
-                                    Product Details
-                                </button>
+                                <button class="nav-link active" id="product-tab" data-bs-toggle="tab" data-bs-target="#product-tab-pane" type="button" role="tab" aria-controls="product-tab-pane" aria-selected="true"> Product Details</button>
                             </li>
-                            <!-- nav item -->
                             <li class="nav-item" role="presentation">
-                                <!-- btn -->
-                                <button
-                                    class="nav-link"
-                                    id="details-tab"
-                                    data-bs-toggle="tab"
-                                    data-bs-target="#details-tab-pane"
-                                    type="button"
-                                    role="tab"
-                                    aria-controls="details-tab-pane"
-                                    aria-selected="false">
-                                    Information
-                                </button>
-                            </li>
-                            <!-- nav item -->
-                            <li class="nav-item" role="presentation">
-                                <!-- btn -->
-                                <button
-                                    class="nav-link"
-                                    id="reviews-tab"
-                                    data-bs-toggle="tab"
-                                    data-bs-target="#reviews-tab-pane"
-                                    type="button"
-                                    role="tab"
-                                    aria-controls="reviews-tab-pane"
-                                    aria-selected="false">
-                                    Reviews
-                                </button>
-                            </li>
-                            <!-- nav item -->
-                            <li class="nav-item" role="presentation">
-                                <!-- btn -->
-                                <button
-                                    class="nav-link"
-                                    id="sellerInfo-tab"
-                                    data-bs-toggle="tab"
-                                    data-bs-target="#sellerInfo-tab-pane"
-                                    type="button"
-                                    role="tab"
-                                    aria-controls="sellerInfo-tab-pane"
-                                    aria-selected="false"
-                                    disabled>
-                                    Seller Info
-                                </button>
-                            </li>
+                                <button class="nav-link" id="details-tab"  data-bs-toggle="tab" data-bs-target="#details-tab-pane" type="button" role="tab"  aria-controls="details-tab-pane" aria-selected="false"> Information</button>
+                            </li> 
+                            <li class="nav-item" role="presentation"> 
+                                <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews-tab-pane" type="button" role="tab" aria-controls="reviews-tab-pane" aria-selected="false"> Reviews </button>
+                            </li> 
                         </ul>
                         <!-- tab content -->
-                        <div class="tab-content" id="myTabContent">
-                            <!-- tab pane -->
+                        <div class="tab-content" id="myTabContent"> 
                             <div class="tab-pane fade show active" id="product-tab-pane" role="tabpanel" aria-labelledby="product-tab" tabindex="0">
                                 <div class="my-8">
                                     <div class="mb-5">
@@ -795,8 +687,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- tab pane -->
-                            <div class="tab-pane fade" id="sellerInfo-tab-pane" role="tabpanel" aria-labelledby="sellerInfo-tab" tabindex="0">...</div>
                         </div>
                     </div>
                 </div>
