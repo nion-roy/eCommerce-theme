@@ -2,20 +2,14 @@
     <div class="offcanvas-header border-bottom">
         <div class="text-start">
             <h5 id="offcanvasRightLabel" class="mb-0 fs-4">Shop Cart</h5>
-            <small>Location in 382480</small>
         </div>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
         <div>
-            <!-- alert -->
-            <div class="alert alert-danger p-2" role="alert">
-                You’ve got FREE delivery. Start
-                <a href="#!" class="alert-link">checkout now!</a>
-            </div>
             <ul class="list-group list-group-flush">
                 <!-- list group -->
-                <li class="list-group-item py-3 ps-0 border-top">
+                <li class="list-group-item py-3 ps-0">
                     <!-- row -->
                     <div class="row align-items-center">
                         <div class="col-6 col-md-6 col-lg-7">
@@ -205,7 +199,7 @@
                     </div>
                 </li>
                 <!-- list group -->
-                <li class="list-group-item py-3 ps-0 border-bottom">
+                <li class="list-group-item py-3 ps-0">
                     <!-- row -->
                     <div class="row align-items-center">
                         <div class="col-6 col-md-6 col-lg-7">
@@ -254,9 +248,8 @@
                 </li>
             </ul>
             <!-- btn -->
-            <div class="d-flex justify-content-between mt-4">
-                <a href="#!" class="btn btn-primary">Continue Shopping</a>
-                <a href="#!" class="btn btn-dark">Update Cart</a>
+            <div class="text-end mt-4">
+                <a href="shop-cart.php" class="btn btn-primary">Continue Shopping</a>
             </div>
         </div>
     </div>
