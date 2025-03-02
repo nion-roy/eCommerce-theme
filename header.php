@@ -41,28 +41,8 @@
         -moz-appearance: textfield;
     }
 
-
     .sticky-top {
-        position: sticky;
-        top: 0;
-        transition: transform 0.4s ease, background-color 0.4s ease;
-        z-index: 1030;
-        width: 100%;
-        background-color: #fff;
         border-bottom: 1px solid #dfe2e1;
-    }
-
-    .sticky-top.scrolled {
-        position: fixed;
-        top: 0;
-    }
-
-    .sticky-top.hidden {
-        transform: translateY(-100%);
-    }
-
-    main.scrolled-margin {
-        margin-top: 116px;
     }
 
     @keyframes slideUpIn {
@@ -75,6 +55,14 @@
             transform: translateY(0);
             opacity: 1;
         }
+    }
+
+    .modal.slideUpIn .modal-dialog {
+        animation: slideUpIn 0.4s ease-out;
+    }
+
+    .table-borderless tbody td {
+        padding: 4px 0;
     }
 
     .modal.slideUpIn .modal-dialog {
@@ -101,9 +89,57 @@
         color: #000;
         border-radius: 4px !important;
     }
+
+    .hover-border {
+        box-shadow: inset 0 0px 0px transparent;
+        transition: box-shadow 0.3s ease;
+    }
+
+    .hover-border:hover {
+        box-shadow: inset 0 -2px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    .back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: #0aad0a;
+        color: #fff;
+        text-align: center;
+        line-height: 50px;
+        font-size: 24px;
+        border-radius: 50%;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: opacity 0.3s, transform 0.3s;
+        opacity: 0;
+        transform: translateY(20px);
+        text-decoration: none;
+    }
+
+    .back-to-top.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .whatsapp-button {
+        color: #fff !important;
+        position: fixed;
+        bottom: 90px;
+        right: 30px;
+        width: 50px;
+        height: 50px;
+        background-color: rgb(0, 175, 64);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s, opacity 0.3s;
+    }
 </style>
 
-<script>
+<!-- <script>
     document.addEventListener("DOMContentLoaded", function() {
         const navbar = document.querySelector(".sticky-top");
         const main = document.querySelector("main");
@@ -130,4 +166,4 @@
             lastScrollTop = scrollTop <= 120 ? 120 : scrollTop; // Prevent negative scroll
         });
     });
-</script>
+</script> -->

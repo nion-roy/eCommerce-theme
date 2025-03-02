@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 mb-6">
-                <h3 class="mb-0">Popular Products</h3>
+                <h3 class="mb-0">Dairy, Bread & Eggs</h3>
             </div>
         </div>
 
@@ -27,13 +27,14 @@
                         <div class="text-small mb-1">
                             <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
                         <div>
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
                         <div class="mt-3">
-                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                            <button data-bs-toggle="modal" data-bs-target="#checkoutModal" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </button>
                         </div>
                     </div>
                 </div>
@@ -58,13 +59,14 @@
                         <div class="text-small mb-1">
                             <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
                         <div>
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
                         <div class="mt-3">
-                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                         </div>
                     </div>
                 </div>
@@ -89,13 +91,14 @@
                         <div class="text-small mb-1">
                             <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
                         <div>
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
                         <div class="mt-3">
-                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                         </div>
                     </div>
                 </div>
@@ -120,13 +123,14 @@
                         <div class="text-small mb-1">
                             <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
                         <div>
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
                         <div class="mt-3">
-                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                         </div>
                     </div>
                 </div>
@@ -151,13 +155,14 @@
                         <div class="text-small mb-1">
                             <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
                         <div>
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
                         <div class="mt-3">
-                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                         </div>
                     </div>
                 </div>
@@ -182,13 +187,14 @@
                         <div class="text-small mb-1">
                             <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
                         <div>
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
                         <div class="mt-3">
-                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                         </div>
                     </div>
                 </div>
@@ -213,13 +219,14 @@
                         <div class="text-small mb-1">
                             <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
                         <div>
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
                         <div class="mt-3">
-                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                         </div>
                     </div>
                 </div>
@@ -244,13 +251,14 @@
                         <div class="text-small mb-1">
                             <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
                         <div>
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
                         <div class="mt-3">
-                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                         </div>
                     </div>
                 </div>
@@ -275,13 +283,14 @@
                         <div class="text-small mb-1">
                             <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
                         <div>
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
                         <div class="mt-3">
-                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                         </div>
                     </div>
                 </div>
@@ -306,13 +315,14 @@
                         <div class="text-small mb-1">
                             <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
                         <div>
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
                         <div class="mt-3">
-                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                         </div>
                     </div>
                 </div>

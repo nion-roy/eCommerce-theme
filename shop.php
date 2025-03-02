@@ -231,7 +231,8 @@
                                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                                         </div>
                                         <div class="mt-3">
-                                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                                         </div>
                                     </div>
                                 </div>
@@ -270,7 +271,8 @@
                                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                                         </div>
                                         <div class="mt-3">
-                                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                                         </div>
                                     </div>
                                 </div>
@@ -302,7 +304,8 @@
                                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                                         </div>
                                         <div class="mt-3">
-                                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                                         </div>
                                     </div>
                                 </div>
@@ -341,7 +344,8 @@
                                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                                         </div>
                                         <div class="mt-3">
-                                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                                         </div>
                                     </div>
                                 </div>
@@ -373,7 +377,8 @@
                                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                                         </div>
                                         <div class="mt-3">
-                                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                                         </div>
                                     </div>
                                 </div>
@@ -411,7 +416,8 @@
                                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                                         </div>
                                         <div class="mt-3">
-                                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                                         </div>
                                     </div>
                                 </div>
@@ -443,7 +449,8 @@
                                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                                         </div>
                                         <div class="mt-3">
-                                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                                         </div>
                                     </div>
                                 </div>
@@ -475,7 +482,8 @@
                                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                                         </div>
                                         <div class="mt-3">
-                                            <a href="#!" class="btn btn-primary w-100"> Add to Cart </a>
+                                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
+                                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
                                         </div>
                                     </div>
                                 </div>

@@ -19,13 +19,13 @@
     <!-- navbar -->
 
     <main>
-        <section class="my-lg-14 mb-8 border-top pt-8" style="margin-top: 0 !important;">
+        <section class="my-lg-14 mb-8 pt-8" style="margin-top: 0 !important;">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center mb-3">
+                    <div class="col-12 text-center mb-5">
                         <span>Already customer? <a href="#" data-bs-toggle="modal" data-bs-target="#userModal">Login Now</a></span>
                     </div>
-                    <div class="col-lg-6 col-md-8 col-12 mx-auto">
+                    <div class="col-lg-8 col-md-8 col-12 mx-auto">
                         <div class="mb-3">
                             <h4 class="mb-0">SHIPPING INFORMATION</h4>
                         </div>
@@ -65,6 +65,12 @@
                                     </label>
                                 </div>
                             </form>
+                        </div>
+
+                        <br class="my-5">
+
+                        <div class="mb-3">
+                            <h4 class="mb-0">YOUR ORDERS</h4>
                         </div>
 
                     </div>

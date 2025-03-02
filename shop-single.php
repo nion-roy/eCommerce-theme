@@ -177,10 +177,10 @@
 
                             <div class="mt-3 row justify-content-start g-2 align-items-center">
                                 <div class="col-xxl-4 col-lg-4 col-md-5 col-5 d-grid">
-                                    <button type="button" class="btn btn-primary">
+                                    <a href="checkout.php" class="btn btn-primary">
                                         <i class="bi bi-bag me-2"></i>
                                         Buy Now
-                                    </button>
+                                    </a>
 
                                 </div>
                                 <div class="col-xxl-4 col-lg-4 col-md-5 col-5 d-grid">
@@ -244,14 +244,14 @@
                                 <button class="nav-link active" id="product-tab" data-bs-toggle="tab" data-bs-target="#product-tab-pane" type="button" role="tab" aria-controls="product-tab-pane" aria-selected="true"> Product Details</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="details-tab"  data-bs-toggle="tab" data-bs-target="#details-tab-pane" type="button" role="tab"  aria-controls="details-tab-pane" aria-selected="false"> Information</button>
-                            </li> 
-                            <li class="nav-item" role="presentation"> 
+                                <button class="nav-link" id="details-tab" data-bs-toggle="tab" data-bs-target="#details-tab-pane" type="button" role="tab" aria-controls="details-tab-pane" aria-selected="false"> Information</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews-tab-pane" type="button" role="tab" aria-controls="reviews-tab-pane" aria-selected="false"> Reviews </button>
-                            </li> 
+                            </li>
                         </ul>
                         <!-- tab content -->
-                        <div class="tab-content" id="myTabContent"> 
+                        <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="product-tab-pane" role="tabpanel" aria-labelledby="product-tab" tabindex="0">
                                 <div class="my-8">
                                     <div class="mb-5">
