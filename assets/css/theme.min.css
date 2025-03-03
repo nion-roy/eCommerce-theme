@@ -49,6 +49,11 @@
 	line-height: 7rem;
 	width: 7rem;
 }
+.icon-xxl5 {
+	height: 5rem;
+	line-height: 5rem;
+	width: 5rem;
+}
 .icon-shape {
 	align-items: center;
 	display: inline-flex;
@@ -23412,7 +23417,7 @@ table tr:last-child td {
 	z-index: 1;
 }
 .slider-nav .slick-next {
-	left: auto;
+	left: auto;icon-xxl
 	right: -18px;
 	top: 94%;
 }

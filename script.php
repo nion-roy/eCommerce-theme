@@ -48,3 +48,62 @@
             });
         });
     </script>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let quantityInput = document.querySelector('input[name="quantity"]');
+            let stockElement = document.querySelector('.stock');
+            let initialStock = parseInt(stockElement.textContent); // মোট স্টক
+            let stock = initialStock - parseInt(quantityInput.value); // ডিফল্ট 1 বাদ যাবে
+            stockElement.textContent = stock;
+
+            let incrementButton = document.querySelector('.quantity_increment');
+            let decrementButton = document.querySelector('.quantity_decrement');
+
+            function updateStock() {
+                let currentValue = parseInt(quantityInput.value);
+                let remainingStock = initialStock - currentValue;
+                stockElement.textContent = remainingStock >= 0 ? remainingStock : 0;
+
+                // Stock 0 হলে Increment বন্ধ হবে
+                incrementButton.disabled = remainingStock <= 0;
+            }
+
+            // Increment quantity
+            incrementButton.addEventListener("click", function() {
+                let currentValue = parseInt(quantityInput.value);
+                if (currentValue < initialStock) {
+                    quantityInput.value = currentValue + 1;
+                    updateStock();
+                }
+            });
+
+            // Decrement quantity
+            decrementButton.addEventListener("click", function() {
+                let currentValue = parseInt(quantityInput.value);
+                if (currentValue > 1) {
+                    quantityInput.value = currentValue - 1;
+                    updateStock();
+                }
+            });
+
+            // Handle manual input
+            quantityInput.addEventListener("input", function() {
+                let currentValue = parseInt(quantityInput.value);
+                if (isNaN(currentValue) || currentValue < 1) {
+                    quantityInput.value = 1;
+                } else if (currentValue > initialStock) {
+                    quantityInput.value = initialStock;
+                }
+                updateStock();
+            });
+        });
+    </script>
+
+
+    <script>
+        function selectRadio(id) {
+            document.getElementById(id).checked = true;
+        }
+    </script>

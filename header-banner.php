@@ -41,7 +41,7 @@
         <div class="row">
             <div class="col-xxl-8 col-xl-7">
                 <!-- hero slider -->
-                <div class="hero-slider">
+                <div class="hero-slider overflow-hidden">
                     <div style="background: url(assets/images/slider/slider-image-1.jpg) no-repeat; background-size: cover; border-radius: 0.5rem">
                         <div class="ps-lg-12 py-lg-16 col-xxl-7 col-lg-9 py-14 px-8 text-xs-center">
                             <!-- badge -->

@@ -7,6 +7,7 @@
 
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+            <hr class="mt-0">
             <div class="modal-body">
                 <form action="" method="post">
                     <div class="form-group mb-3">
@@ -27,45 +28,29 @@
                         <textarea name="order_notes" id="order_notes" class="form-control" cols="10" rows="2" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
                     </div>
 
-                    <div class="form-group border rounded p-3 rounded-bottom-0 mt-5 d-flex align-items-center gap-2">
+                    <div class="form-group  border rounded p-3 rounded-bottom-0 mt-5 d-flex align-items-center gap-2" onclick="selectRadio('inside_dhaka')">
                         <input type="radio" id="inside_dhaka" name="location" value="inside_dhaka" checked />
-                        <label for="inside_dhaka" class="w-100 d-inline-flex justify-content-between align-items-center">
+                        <label for="inside_dhaka" class="w-100 d-inline-flex justify-content-between align-items-center ">
                             <span>Inside Dhaka</span>
                             <span class="text-success">70 ৳</span>
                         </label>
                     </div>
-                    <div class="form-group border rounded p-3 rounded-top-0 border-top-0 d-flex align-items-center gap-2">
+
+                    <div class="form-group  border rounded p-3 rounded-top-0 border-top-0 d-flex align-items-center gap-2" onclick="selectRadio('outside_dhaka')">
                         <input type="radio" id="outside_dhaka" name="location" value="outside_dhaka" />
-                        <label for="outside_dhaka" class="w-100 d-inline-flex justify-content-between align-items-center">
+                        <label for="outside_dhaka" class="w-100 d-inline-flex justify-content-between align-items-center ">
                             <span>Outside Dhaka</span>
-                            <span class="text-success text-end">120 ৳</span>
+                            <span class="text-success">120 ৳</span>
                         </label>
                     </div>
+
+     
+
 
                     <hr class="m-0 mt-5">
                     <div class="cart-products">
                         <div class="row">
                             <div class="table-responsive">
-                                <style>
-                                    .product-img-wrapper {
-                                        position: relative;
-                                        display: inline-block;
-                                    }
-                                    .product-badge {
-                                        position: absolute;
-                                        top: 5px;
-                                        right: 5px;
-                                        font-size: 10px;
-                                        width: 22px;
-                                        height: 22px;
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: center;
-                                        color: #fff;
-                                        border-radius: 50px;
-                                    }
-                                </style>
-
                                 <table class="table text-nowrap table-with-checkbox m-0">
                                     <tbody>
                                         <tr>
@@ -116,18 +101,51 @@
                             </div>
                         </div>
                     </div>
+
                     <hr class="m-0">
+
+                    <div class="order-summery mt-3 p-3">
+                        <div class="row bg-light rounded">
+                            <div class="col-12">
+                                <div class="border-bottom py-3 d-flex align-items-center justify-content-between">
+                                    <h6 class="fs-6 mb-0">Subtotal</h6>
+                                    <p class="mb-0 text-success">100.00 ৳</p>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="border-bottom py-3 d-flex align-items-center justify-content-between">
+                                    <h6 class="fs-6 mb-0">Shipping</h6>
+                                    <p class="mb-0 text-success">70.00 ৳</p>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="py-3 d-flex align-items-center justify-content-between">
+                                    <h6 class="fs-6 mb-0">Grand Total</h6>
+                                    <p class="mb-0 text-success">170.00 ৳</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 
 
                     <div class="mt-3">
-                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                        <button type="submit" class="btn btn-primary w-100">Order Now</button>
                     </div>
 
                 </form>
             </div>
+            <hr class="mb-0">
             <div class="modal-footer border-0">
                 <p>By clicking the "Submit" button, you agree to our <a href="#!" class="text-decoration-none text-muted">Terms & Conditions</a></p>
             </div>
         </div>
     </div>
 </div>
+
+
+<!-- <script>
+    $(document).ready(function () {
+        $('#')
+    });
+</script> -->
