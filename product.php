@@ -32,9 +32,9 @@
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
-                        <div class="mt-3">
-                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
-                            <button data-bs-toggle="modal" data-bs-target="#checkoutModal" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </button>
+                        <div class="mt-3 d-flex align-items-center gap-2">
+                            <button data-bs-toggle="modal" data-bs-target="#checkoutModal" class="btn btn-primary hover-border w-75 rounded-0 px-0"> <i class="feather-icon icon-shopping-bag me-1"></i>Buy Now </button>
+                            <a href="#!" class="btn btn-primary hover-border w-25 rounded-0 px-0"><i class="feather-icon icon-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -64,9 +64,46 @@
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
-                        <div class="mt-3">
-                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
-                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
+
+
+                        <div class="mt-3 d-flex align-items-center gap-2">
+                            <a href="checkout.php" class="btn btn-primary hover-border w-75 px-0 rounded-0"> <i class="feather-icon icon-shopping-bag me-1"></i>Buy Now </a>
+                            <a href="#!" class="btn btn-primary hover-border w-25 px-0 rounded-0"><i class="feather-icon icon-shopping-cart"></i></a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-product">
+                    <div class="card-body">
+                        <div class="text-center position-relative">
+                            <div class="position-absolute top-0 start-0">
+                                <span class="badge bg-danger">Sale</span>
+                            </div>
+                            <a href="#!"><img src="assets/images/products/product-img-1.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+
+                            <div class="card-product-action">
+                                <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
+                                    <i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View"></i>
+                                </a>
+                                <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
+                                <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Compare"><i class="bi bi-arrow-left-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-small mb-1">
+                            <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
+                        </div>
+                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                        <div>
+                            <span class="text-dark">$34</span>
+                            <span class="text-muted text-decoration-line-through ms-1">$38</span>
+                        </div>
+                        <div class="mt-3 d-flex align-items-center gap-2">
+                            <a href="checkout.php" class="btn btn-primary hover-border w-75 px-0 rounded-0"> <i class="feather-icon icon-shopping-bag me-1"></i>Buy Now </a>
+                            <a href="#!" class="btn btn-primary hover-border w-25 px-0 rounded-0"><i class="feather-icon icon-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -96,9 +133,9 @@
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
-                        <div class="mt-3">
-                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
-                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
+                        <div class="mt-3 d-flex align-items-center gap-2">
+                            <a href="checkout.php" class="btn btn-primary hover-border w-75 px-0 rounded-0"> <i class="feather-icon icon-shopping-bag me-1"></i>Buy Now </a>
+                            <a href="#!" class="btn btn-primary hover-border w-25 px-0 rounded-0"><i class="feather-icon icon-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -128,9 +165,9 @@
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
-                        <div class="mt-3">
-                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
-                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
+                        <div class="mt-3 d-flex align-items-center gap-2">
+                            <a href="checkout.php" class="btn btn-primary hover-border w-75 px-0 rounded-0"> <i class="feather-icon icon-shopping-bag me-1"></i>Buy Now </a>
+                            <a href="#!" class="btn btn-primary hover-border w-25 px-0 rounded-0"><i class="feather-icon icon-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -160,9 +197,9 @@
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
-                        <div class="mt-3">
-                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
-                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
+                        <div class="mt-3 d-flex align-items-center gap-2">
+                            <a href="checkout.php" class="btn btn-primary hover-border w-75 px-0 rounded-0"> <i class="feather-icon icon-shopping-bag me-1"></i>Buy Now </a>
+                            <a href="#!" class="btn btn-primary hover-border w-25 px-0 rounded-0"><i class="feather-icon icon-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -192,9 +229,9 @@
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
-                        <div class="mt-3">
-                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
-                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
+                        <div class="mt-3 d-flex align-items-center gap-2">
+                            <a href="checkout.php" class="btn btn-primary hover-border w-75 px-0 rounded-0"> <i class="feather-icon icon-shopping-bag me-1"></i>Buy Now </a>
+                            <a href="#!" class="btn btn-primary hover-border w-25 px-0 rounded-0"><i class="feather-icon icon-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -224,9 +261,9 @@
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
-                        <div class="mt-3">
-                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
-                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
+                        <div class="mt-3 d-flex align-items-center gap-2">
+                            <a href="checkout.php" class="btn btn-primary hover-border w-75 px-0 rounded-0"> <i class="feather-icon icon-shopping-bag me-1"></i>Buy Now </a>
+                            <a href="#!" class="btn btn-primary hover-border w-25 px-0 rounded-0"><i class="feather-icon icon-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -256,9 +293,9 @@
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
-                        <div class="mt-3">
-                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
-                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
+                        <div class="mt-3 d-flex align-items-center gap-2">
+                            <a href="checkout.php" class="btn btn-primary hover-border w-75 px-0 rounded-0"> <i class="feather-icon icon-shopping-bag me-1"></i>Buy Now </a>
+                            <a href="#!" class="btn btn-primary hover-border w-25 px-0 rounded-0"><i class="feather-icon icon-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -288,41 +325,9 @@
                             <span class="text-dark">$34</span>
                             <span class="text-muted text-decoration-line-through ms-1">$38</span>
                         </div>
-                        <div class="mt-3">
-                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
-                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card card-product">
-                    <div class="card-body">
-                        <div class="text-center position-relative">
-                            <div class="position-absolute top-0 start-0">
-                                <span class="badge bg-danger">Sale</span>
-                            </div>
-                            <a href="#!"><img src="assets/images/products/product-img-1.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
-
-                            <div class="card-product-action">
-                                <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
-                                    <i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View"></i>
-                                </a>
-                                <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
-                                <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Compare"><i class="bi bi-arrow-left-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-small mb-1">
-                            <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
-                        </div>
-                        <h2 class="fs-6"><a href="shop-single.php" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
-                        <div>
-                            <span class="text-dark">$34</span>
-                            <span class="text-muted text-decoration-line-through ms-1">$38</span>
-                        </div>
-                        <div class="mt-3">
-                            <a href="#!" class="btn btn-primary hover-border w-100 rounded-0"><i class="feather-icon icon-shopping-bag me-1"></i>Add to Cart </a>
-                            <a href="checkout.php" class="btn btn-primary hover-border w-100 mt-2 rounded-0"> <i class="bi bi-bag me-1"></i>Buy Now </a>
+                        <div class="mt-3 d-flex align-items-center gap-2">
+                            <a href="checkout.php" class="btn btn-primary hover-border w-75 px-0 rounded-0"> <i class="feather-icon icon-shopping-bag me-1"></i>Buy Now </a>
+                            <a href="#!" class="btn btn-primary hover-border w-25 px-0 rounded-0"><i class="feather-icon icon-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>

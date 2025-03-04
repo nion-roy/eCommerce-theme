@@ -36,7 +36,7 @@
                     <div class="col-lg-8 col-md-7">
                         <div class="py-3">
                             <div class="table-responsive">
-                                <table class="table text-nowrap table-with-checkbox table-hover">
+                                <table class="table text-nowrap table-with-checkbox">
                                     <thead class="table-light">
                                         <tr>
                                             <th></th>
@@ -55,62 +55,80 @@
                                             <td class="align-middle">
                                                 <div>
                                                     <h5 class="fs-6 mb-0"><a href="#" class="text-inherit">Organic Banana</a></h5>
-                                                    <small>$.98 / lb</small>
                                                 </div>
                                             </td>
                                             <td class="align-middle">$35.00</td>
-                                            <td class="align-middle"><span class="badge bg-success">In Stock</span></td>
                                             <td class="align-middle">
-                                                <div class="btn btn-primary btn-sm">Add to Cart</div>
-                                            </td>
-                                            <td class="align-middle">
-                                                <a href="#" class="text-muted" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete">
-                                                    <i class="feather-icon icon-trash-2"></i>
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="align-middle">
-                                                <a href="#"><img src="assets/images/products/product-img-17.jpg" class="icon-shape icon-xxl" alt="" /></a>
-                                            </td>
-                                            <td class="align-middle">
-                                                <div>
-                                                    <h5 class="fs-6 mb-0"><a href="#" class="text-inherit">Fresh Kiwi</a></h5>
-                                                    <small>4 no</small>
+                                                <div class="product_quantity">
+                                                    <div class="d-inline-flex align-items-center gap-2">
+                                                        <button type="button" class="quantity_decrement"><i class="bi bi-dash-lg"></i></button>
+                                                        <input type="number" name="quantity" class="quantity" value="1" min="1" />
+                                                        <button type="button" class="quantity_increment"><i class="bi bi-plus-lg"></i></button>
+                                                    </div>
                                                 </div>
                                             </td>
-                                            <td class="align-middle">$20.97</td>
-                                            <td class="align-middle"><span class="badge bg-danger">Out of Stock</span></td>
-                                            <td class="align-middle">
-                                                <div class="btn btn-dark btn-sm">Contact us</div>
-                                            </td>
+                                            <td class="align-middle">1200.00 Tk</td>
                                             <td class="align-middle">
                                                 <a href="#" class="text-muted" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete">
-                                                    <i class="feather-icon icon-trash-2"></i>
+                                                    <i class="feather-icon icon-trash-2 text-danger fs-5"></i>
                                                 </a>
                                             </td>
                                         </tr>
+
                                         <tr>
                                             <td class="align-middle">
-                                                <a href="#"><img src="assets/images/products/product-img-16.jpg" class="icon-shape icon-xxl" alt="" /></a>
+                                                <a href="#"><img src="assets/images/products/product-img-18.jpg" class="icon-shape icon-xxl" alt="" /></a>
                                             </td>
                                             <td class="align-middle">
                                                 <div>
-                                                    <h5 class="fs-6 mb-0"><a href="#" class="text-inherit">Golden Pineapple</a></h5>
-                                                    <small>2 no</small>
+                                                    <h5 class="fs-6 mb-0"><a href="#" class="text-inherit">Organic Banana</a></h5>
                                                 </div>
                                             </td>
                                             <td class="align-middle">$35.00</td>
-                                            <td class="align-middle"><span class="badge bg-success">In Stock</span></td>
                                             <td class="align-middle">
-                                                <div class="btn btn-primary btn-sm">Add to Cart</div>
+                                                <div class="product_quantity">
+                                                    <div class="d-inline-flex align-items-center gap-2">
+                                                        <button type="button" class="quantity_decrement"><i class="bi bi-dash-lg"></i></button>
+                                                        <input type="number" name="quantity" class="quantity" value="1" min="1" />
+                                                        <button type="button" class="quantity_increment"><i class="bi bi-plus-lg"></i></button>
+                                                    </div>
+                                                </div>
                                             </td>
+                                            <td class="align-middle">1200.00 Tk</td>
                                             <td class="align-middle">
                                                 <a href="#" class="text-muted" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete">
-                                                    <i class="feather-icon icon-trash-2"></i>
+                                                    <i class="feather-icon icon-trash-2 text-danger fs-5"></i>
                                                 </a>
                                             </td>
                                         </tr>
+
+                                        <tr>
+                                            <td class="align-middle">
+                                                <a href="#"><img src="assets/images/products/product-img-18.jpg" class="icon-shape icon-xxl" alt="" /></a>
+                                            </td>
+                                            <td class="align-middle">
+                                                <div>
+                                                    <h5 class="fs-6 mb-0"><a href="#" class="text-inherit">Organic Banana</a></h5>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle">$35.00</td>
+                                            <td class="align-middle">
+                                                <div class="product_quantity">
+                                                    <div class="d-inline-flex align-items-center gap-2">
+                                                        <button type="button" class="quantity_decrement"><i class="bi bi-dash-lg"></i></button>
+                                                        <input type="number" name="quantity" class="quantity" value="1" min="1" />
+                                                        <button type="button" class="quantity_increment"><i class="bi bi-plus-lg"></i></button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-middle">1200.00 Tk</td>
+                                            <td class="align-middle">
+                                                <a href="#" class="text-muted" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete">
+                                                    <i class="feather-icon icon-trash-2 text-danger fs-5"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+
                                     </tbody>
                                 </table>
                             </div>
@@ -121,60 +139,36 @@
                     <div class="col-12 col-lg-4 col-md-5">
                         <div class="mb-5 card mt-3">
                             <div class="card-body p-6">
+                                <!-- heading -->
                                 <h2 class="h5 mb-4">Summary</h2>
                                 <div class="card mb-2">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                    <!-- list group -->
+                                    <ul class="list-group list-group-flush bg-light p-0">
+                                        <!-- list group item -->
+                                        <li class="list-group-item d-flex justify-content-between align-items-start bg-light">
                                             <div class="me-auto">
-                                                <div>Subtotal</div>
+                                                <div>Item Subtotal</div>
                                             </div>
                                             <span>$70.00</span>
                                         </li>
 
-                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                        <!-- list group item -->
+                                        <li class="list-group-item d-flex justify-content-between align-items-start bg-light">
                                             <div class="me-auto">
-                                                <div>Delivery Fee</div>
+                                                <div>Service Fee</div>
                                             </div>
                                             <span>$3.00</span>
-                                            <p>Shipping options will be updated during checkout. </p>
                                         </li>
-                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                        <!-- list group item -->
+                                        <li class="list-group-item d-flex justify-content-between align-items-start bg-light">
                                             <div class="me-auto">
-                                                <div class="fw-bold">Total</div>
+                                                <div class="fw-bold">Subtotal</div>
                                             </div>
                                             <span class="fw-bold">$67.00</span>
                                         </li>
                                     </ul>
                                 </div>
 
-                                <style>
-                                    .coupon-wrap .coupon-btn {
-                                        background: none !important;
-                                        color: #0aad0a;
-                                        border: none;
-                                        cursor: pointer;
-                                        font-size: 14px;
-                                    }
-
-                                    .coupon-wrap .coupon-btn:hover {
-                                        color: #099309;
-                                    }
-
-
-                                    .coupon-wrap .form-control {
-                                        border-radius: 10px 0 0 10px;
-                                    }
-
-                                    .coupon-wrap .apply-btn {
-                                        background: #0aad0a;
-                                        color: #fff;
-                                        border: none;
-                                        cursor: pointer;
-                                        font-size: 0.955rem;
-                                        padding: 0.55rem 1rem;
-                                        border-radius: 0 10px 10px 0;
-                                    }
-                                </style>
 
                                 <div class="mt-8 coupon-wrap">
                                     <button class="coupon-btn">Do you have a coupon code?</button>
@@ -186,35 +180,13 @@
                                     </form>
                                 </div>
 
-
-                                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                                <script>
-                                    $(document).ready(function() {
-                                        $(".coupon-btn").click(function() {
-                                            $("#coupon-form").removeClass('d-none');
-                                            $(".coupon-btn").addClass('d-none');
-                                        });
-                                    });
-                                </script>
-
-                                <div class="d-grid mb-1 mt-4">
+                                <div class="d-grid mb-3 mt-4">
                                     <!-- btn -->
-                                    <button class="btn btn-primary btn-lg d-flex justify-content-between align-items-center" type="submit">
-                                        Go to Checkout
-                                        <span class="fw-bold">$67.00</span>
-                                    </button>
+                                    <a href="checkout.php" class="btn btn-primary btn-lg d-flex justify-content-between align-items-center rounded-1 border-inset hover-border" type="submit">
+                                        Proceed to Checkout <span class="fw-bold">$67.00</span>
+                                    </a>
                                 </div>
-                                <!-- text -->
-                                <p>
-                                    <small>
-                                        By placing your order, you agree to be bound by the Freshcart
-                                        <a href="#!">Terms of Service</a>
-                                        and
-                                        <a href="#!">Privacy Policy.</a>
-                                    </small>
-                                </p>
-
-
+                                <p class="m-0"> By placing your order, you agree to be bound by the Freshcart <a href="#!">Terms of Service</a> and <a href="#!">Privacy Policy.</a> </p>
                             </div>
                         </div>
                     </div>
@@ -233,6 +205,9 @@
     <?php include 'modal/cart.php'  ?>
     <!-- Shop Cart Modal -->
 
+    <!-- Shop Checkout Modal -->
+    <?php include 'modal/checkout.php'  ?>
+    <!-- Shop Checkout Modal -->
 
     <!-- Product View Modal -->
     <?php include 'modal/product-view.php'  ?>

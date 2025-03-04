@@ -114,7 +114,7 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, rerum.</p>
                             </div>
                             <div class="product_quantity">
-                                <div class="input-group d-inline-flex align-items-center gap-2">
+                                <div class="d-inline-flex align-items-center gap-2">
                                     <span>Quantity</span>
                                     <button type="button" class="quantity_decrement"><i class="bi bi-dash-lg"></i></button>
                                     <input type="number" name="quantity" class="quantity" value="1" min="1" />
@@ -126,18 +126,10 @@
 
                             <div class="mt-3 row justify-content-start g-2 align-items-center">
                                 <div class="col-xxl-4 col-lg-4 col-md-5 col-5 d-grid">
-                                    <a href="checkout.php" class="btn btn-primary">
-                                        <i class="bi bi-bag me-2"></i>
-                                        Buy Now
-                                    </a>
-
+                                    <a href="checkout.php" class="btn btn-primary"> <i class="feather-icon icon-shopping-bag me-1"></i> Buy Now </a>
                                 </div>
                                 <div class="col-xxl-4 col-lg-4 col-md-5 col-5 d-grid">
-                                    <button type="button" class="btn btn-primary">
-                                        <i class="feather-icon icon-shopping-bag me-2"></i>
-                                        Add to cart
-                                    </button>
-
+                                    <button type="button" class="btn btn-primary"><i class="feather-icon icon-shopping-cart me-1"></i>Add to cart</button>
                                 </div>
                                 <div class="col-md-4 col-4">
                                     <!-- <a class="btn btn-light" href="#" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Compare"><i class="bi bi-arrow-left-right"></i></a> -->
@@ -178,6 +170,7 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -980,6 +973,9 @@
     <?php include 'modal/cart.php'  ?>
     <!-- Shop Cart Modal -->
 
+    <!-- Shop Checkout Modal -->
+    <?php include 'modal/checkout.php'  ?>
+    <!-- Shop Checkout Modal -->
 
     <!-- Product View Modal -->
     <?php include 'modal/product-view.php'  ?>

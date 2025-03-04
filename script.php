@@ -26,6 +26,15 @@
     <script src="assets/js/vendors/tns-slider.js"></script>
     <script src="assets/js/vendors/zoom.js"></script>
 
+    <script>
+        $(document).ready(function() {
+            $(".coupon-btn").click(function() {
+                $("#coupon-form").removeClass('d-none');
+                $(".coupon-btn").addClass('d-none');
+            });
+        });
+    </script>
+
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {

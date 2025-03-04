@@ -23,11 +23,6 @@
                         <input type="text" class="form-control" id="address" name="address" placeholder="আপনার ঠিকানা লিখুন..." required />
                     </div>
 
-                    <div class="form-group mb-3">
-                        <!-- <label for="order_notes" class="form-label">Order notes (optional)</label> -->
-                        <textarea name="order_notes" id="order_notes" class="form-control" cols="10" rows="2" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
-                    </div>
-
                     <div class="form-group  border rounded p-3 rounded-bottom-0 mt-5 d-flex align-items-center gap-2" onclick="selectRadio('inside_dhaka')">
                         <input type="radio" id="inside_dhaka" name="location" value="inside_dhaka" checked />
                         <label for="inside_dhaka" class="w-100 d-inline-flex justify-content-between align-items-center ">
@@ -44,11 +39,7 @@
                         </label>
                     </div>
 
-     
-
-
-                    <hr class="m-0 mt-5">
-                    <div class="cart-products">
+                    <div class="cart-products mt-5">
                         <div class="row">
                             <div class="table-responsive">
                                 <table class="table text-nowrap table-with-checkbox m-0">
@@ -70,7 +61,7 @@
                                             <td class="align-middle">$35.00</td>
                                             <td class="align-middle">
                                                 <a href="#" class="text-muted" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete">
-                                                    <i class="feather-icon icon-trash-2"></i>
+                                                    <i class="feather-icon icon-trash-2 text-danger fs-5"></i>
                                                 </a>
                                             </td>
                                         </tr>
@@ -91,18 +82,16 @@
                                             <td class="align-middle">$35.00</td>
                                             <td class="align-middle">
                                                 <a href="#" class="text-muted" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete">
-                                                    <i class="feather-icon icon-trash-2"></i>
+                                                    <i class="feather-icon icon-trash-2 text-danger fs-5"></i>
                                                 </a>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
-
                             </div>
                         </div>
                     </div>
 
-                    <hr class="m-0">
 
                     <div class="order-summery mt-3 p-3">
                         <div class="row bg-light rounded">
@@ -127,17 +116,20 @@
                         </div>
                     </div>
 
-
+                    <div class="form-group mb-3">
+                        <!-- <label for="order_notes" class="form-label">Order notes (optional)</label> -->
+                        <textarea name="order_notes" id="order_notes" class="form-control" cols="10" rows="2" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+                    </div>
 
                     <div class="mt-3">
-                        <button type="submit" class="btn btn-primary w-100">Order Now</button>
+                        <button type="submit" class="btn btn-primary w-100 border-inset hover-border rounded-1">Order Now</button>
                     </div>
 
                 </form>
             </div>
             <hr class="mb-0">
             <div class="modal-footer border-0">
-                <p>By clicking the "Submit" button, you agree to our <a href="#!" class="text-decoration-none text-muted">Terms & Conditions</a></p>
+                <p>By clicking the "Order Now" button, you agree to our <a href="#!" class="text-decoration-none text-muted">Terms & Conditions</a></p>
             </div>
         </div>
     </div>

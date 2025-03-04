@@ -9,35 +9,6 @@
     <title>Homepage</title>
 
     <?php include 'header.php'  ?>
-
-    <style>
-        .modal {
-            --fc-modal-width: 540px;
-        }
-
-        .offcanvas {
-            --fc-offcanvas-width: 496px;
-        }
-
-        .product-img-wrapper {
-            position: relative;
-            display: inline-block;
-        }
-
-        .product-badge {
-            position: absolute;
-            top: 5px;
-            right: 5px;
-            font-size: 10px;
-            width: 22px;
-            height: 22px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
-            border-radius: 50px;
-        }
-    </style>
 </head>
 
 <body>

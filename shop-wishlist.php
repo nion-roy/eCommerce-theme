@@ -224,6 +224,10 @@
     <!-- Shop Cart Modal -->
 
 
+    <!-- Shop Checkout Modal -->
+    <?php include 'modal/checkout.php'  ?>
+    <!-- Shop Checkout Modal -->
+
     <!-- Product View Modal -->
     <?php include 'modal/product-view.php'  ?>
     <!-- Product View Modal -->

@@ -27,17 +27,21 @@
                     <div class="col-12 col-md-6 offset-lg-1 col-lg-5 order-lg-2 order-1 d-flex align-items-center">
                         <div>
                             <div class="mb-lg-9 mb-5">
-                                <h1 class="mb-2 h2 fw-bold">Forgot your password?</h1>
-                                <p>Please enter the email address associated with your account and We will email you a link to forget your password.</p>
+                                <h1 class="mb-2 h2 fw-bold">Reset your password?</h1>
+                                <p>Please enter the email address associated with your account and We will email you a link to reset your password.</p>
                             </div>
                             <form class="needs-validation" novalidate>
                                 <div class="row g-3">
                                     <div class="col-12">
-                                        <label for="formForgetEmail" class="form-label visually-hidden">Email address</label>
-                                        <input type="email" class="form-control rounded-1" id="formForgetEmail" placeholder="Email" required />
+                                        <label for="formForgetEmail" class="form-label visually-hidden">New password</label>
+                                        <input type="text" class="form-control rounded-1" id="formForgetEmail" placeholder="New password" required />
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="formForgetEmail" class="form-label visually-hidden">Confrim password</label>
+                                        <input type="text" class="form-control rounded-1" id="formForgetEmail" placeholder="Confrim password" required />
                                     </div>
                                     <div class="col-12 d-grid gap-2">
-                                        <button type="submit" class="btn btn-primary border-inset hover-border rounded-1">Forget Password</button>
+                                        <button type="submit" class="btn btn-primary border-inset hover-border rounded-1">Reset Password</button>
                                     </div>
                                 </div>
                             </form>
