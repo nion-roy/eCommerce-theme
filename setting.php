@@ -104,7 +104,7 @@
                                 <!-- heading -->
                                 <h5 class="mb-4">Account details</h5>
                                 <div class="row">
-                                    <div class="col-lg-5">
+                                    <div class="col-lg-6">
                                         <!-- form -->
                                         <form>
                                             <!-- input -->

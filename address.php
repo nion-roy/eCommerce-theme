@@ -96,169 +96,56 @@
                     </div>
                     <div class="col-lg-9 col-md-8 col-12">
                         <div class="py-6 p-md-6 p-lg-10">
-                            <!-- heading -->
-                            <h2 class="mb-6">Your Orders</h2>
-
-                            <div class="table-responsive-xxl border-0">
-                                <!-- Table -->
-                                <table class="table mb-0 text-nowrap table-centered">
-                                    <!-- Table Head -->
-                                    <thead class="bg-light">
-                                        <tr>
-                                            <th>&nbsp;</th>
-                                            <th>Product</th>
-                                            <th>Order</th>
-                                            <th>Date</th>
-                                            <th>Items</th>
-                                            <th>Status</th>
-                                            <th>Amount</th>
-
-                                            <th></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <!-- Table body -->
-                                        <tr>
-                                            <td class="align-middle border-top-0 w-0">
-                                                <a href="#"><img src="assets/images/products/product-img-1.jpg" alt="Ecommerce" class="icon-shape icon-xl" /></a>
-                                            </td>
-                                            <td class="align-middle border-top-0">
-                                                <a href="#" class="fw-semibold text-inherit">
-                                                    <h6 class="mb-0">Haldiram's Nagpur Aloo Bhujia</h6>
-                                                </a>
-                                                <span><small class="text-muted">400g</small></span>
-                                            </td>
-                                            <td class="align-middle border-top-0">
-                                                <a href="#" class="text-inherit">#14899</a>
-                                            </td>
-                                            <td class="align-middle border-top-0">March 5, 2023</td>
-                                            <td class="align-middle border-top-0">1</td>
-                                            <td class="align-middle border-top-0">
-                                                <span class="badge bg-warning">Processing</span>
-                                            </td>
-                                            <td class="align-middle border-top-0">$15.00</td>
-                                            <td class="text-muted align-middle border-top-0">
-                                                <a href="#" class="text-inherit" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="feather-icon icon-eye"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="align-middle border-top-0 w-0">
-                                                <a href="#"><img src="assets/images/products/product-img-2.jpg" alt="Ecommerce" class="icon-shape icon-xl" /></a>
-                                            </td>
-                                            <td class="align-middle border-top-0">
-                                                <a href="#" class="fw-semibold text-inherit">
-                                                    <h6 class="mb-0">Nutri Choise Biscuit</h6>
-                                                </a>
-                                                <span><small class="text-muted">2 Pkt</small></span>
-                                            </td>
-                                            <td class="align-middle border-top-0">
-                                                <a href="#" class="text-inherit">#14658</a>
-                                            </td>
-                                            <td class="align-middle border-top-0">July 9, 2023</td>
-                                            <td class="align-middle border-top-0">2</td>
-                                            <td class="align-middle border-top-0">
-                                                <span class="badge bg-success">Completed</span>
-                                            </td>
-                                            <td class="align-middle border-top-0">$45.00</td>
-                                            <td class="text-muted align-middle border-top-0">
-                                                <a href="#" class="text-inherit" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="feather-icon icon-eye"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="align-middle border-top-0 w-0">
-                                                <a href="#"><img src="assets/images/products/product-img-3.jpg" alt="Ecommerce" class="icon-shape icon-xl" /></a>
-                                            </td>
-                                            <td class="align-middle border-top-0">
-                                                <a href="#" class="text-inherit">
-                                                    <h6 class="mb-0">Cadbury Dairy Milk 5 Star Bites</h6>
-                                                    <span><small class="text-muted">202 g</small></span>
-                                                </a>
-                                            </td>
-                                            <td class="align-middle border-top-0">
-                                                <a href="#" class="text-inherit">#13778</a>
-                                            </td>
-                                            <td class="align-middle border-top-0">Oct 03, 2023</td>
-                                            <td class="align-middle border-top-0">4</td>
-                                            <td class="align-middle border-top-0">
-                                                <span class="badge bg-success">Completed</span>
-                                            </td>
-                                            <td class="align-middle border-top-0">$99.00</td>
-                                            <td class="text-muted align-middle border-top-0">
-                                                <a href="#" class="text-inherit" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="feather-icon icon-eye"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="align-middle border-top-0 w-0">
-                                                <a href="#"><img src="assets/images/products/product-img-4.jpg" alt="Ecommerce" class="icon-shape icon-xl" /></a>
-                                            </td>
-                                            <td class="align-middle border-top-0">
-                                                <a href="#" class="fw-semibold text-inherit">
-                                                    <h6 class="mb-0">Onion Flavour Potato</h6>
-                                                </a>
-                                                <span><small class="text-muted">100 g</small></span>
-                                            </td>
-                                            <td class="align-middle border-top-0">
-                                                <a href="#" class="text-inherit">#13746</a>
-                                            </td>
-                                            <td class="align-middle border-top-0">March 5, 2023</td>
-                                            <td class="align-middle border-top-0">1</td>
-                                            <td class="align-middle border-top-0">
-                                                <span class="badge bg-success">Completed</span>
-                                            </td>
-                                            <td class="align-middle border-top-0">$12.00</td>
-                                            <td class="text-muted align-middle border-top-0">
-                                                <a href="#" class="text-inherit" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="feather-icon icon-eye"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="align-middle border-top-0 w-0">
-                                                <a href="#"><img src="assets/images/products/product-img-5.jpg" alt="Ecommerce" class="icon-shape icon-xl" /></a>
-                                            </td>
-                                            <td class="align-middle border-top-0">
-                                                <a href="#" class="fw-semibold text-inherit">
-                                                    <h6 class="mb-0">Salted Instant Popcorn</h6>
-                                                </a>
-                                                <span><small class="text-muted">500 g</small></span>
-                                            </td>
-                                            <td class="align-middle border-top-0">
-                                                <a href="#" class="text-inherit">#13566</a>
-                                            </td>
-                                            <td class="align-middle border-top-0">July 9, 2023</td>
-                                            <td class="align-middle border-top-0">2</td>
-                                            <td class="align-middle border-top-0">
-                                                <span class="badge bg-danger">Cancel</span>
-                                            </td>
-                                            <td class="align-middle border-top-0">$6.00</td>
-                                            <td class="text-muted align-middle border-top-0">
-                                                <a href="#" class="text-inherit" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="feather-icon icon-eye"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="align-middle border-top-0 w-0">
-                                                <a href="#"><img src="assets/images/products/product-img-6.jpg" alt="Ecommerce" class="icon-shape icon-xl" /></a>
-                                            </td>
-                                            <td class="align-middle border-top-0">
-                                                <a href="#" class="fw-semibold text-inherit">
-                                                    <h6 class="mb-0">Blueberry Greek Yogurt</h6>
-                                                </a>
-                                                <span><small class="text-muted">500 g</small></span>
-                                            </td>
-                                            <td class="align-middle border-top-0">
-                                                <a href="#" class="text-inherit">#12094</a>
-                                            </td>
-                                            <td class="align-middle border-top-0">Oct 03, 2023</td>
-                                            <td class="align-middle border-top-0">4</td>
-                                            <td class="align-middle border-top-0">
-                                                <span class="badge bg-success">Completed</span>
-                                            </td>
-                                            <td class="align-middle border-top-0">$18.00</td>
-                                            <td class="text-muted align-middle border-top-0">
-                                                <a href="#" class="text-inherit" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="feather-icon icon-eye"></i></a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div class="d-flex justify-content-between mb-6">
+                                <h2 class="mb-0">Address</h2>
+                                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#addAddressModal">Add a new address</a>
                             </div>
+
+                            <style>
+                                .card {
+                                    transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+                                    cursor: pointer;
+                                }
+
+                                input.card-radio:checked+.card {
+                                    border: 1px solid #0aad0a !important;
+                                    background: #f0f3f2; 
+                                }
+                            </style>
+
+                            <div class="row">
+                                <div class="col-xl-5 col-lg-6 col-xxl-4 col-12 mb-4">
+                                    <input type="radio" id="card1" name="card-selection" class="card-radio d-none" checked>
+                                    <label for="card1" class="card border">
+                                        <div class="card-body">
+                                            <p class="m-0">Nion Roy</p>
+                                            <p class="m-0">4450 North Avenue Oakland</p>
+                                            <p class="m-0">01761115624</p>
+                                            <div class="mt-2 pt-2 border-top">
+                                                <a href="#" class="text-inherit"><i class="feather-icon icon-edit me-1"></i>Edit</a>
+                                                <a href="#" class="text-danger ms-3" data-bs-toggle="modal" data-bs-target="#deleteModal"><i class="feather-icon icon-trash-2 me-1"></i>Delete</a>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+
+                                <div class="col-xl-5 col-lg-6 col-xxl-4 col-12 mb-4">
+                                    <input type="radio" id="card2" name="card-selection" class="card-radio d-none">
+                                    <label for="card2" class="card border">
+                                        <div class="card-body">
+                                            <p class="m-0">Nion Roy 02</p>
+                                            <p class="m-0">4450 North Avenue Dhaka</p>
+                                            <p class="m-0">01761115624</p>
+                                            <div class="mt-2 pt-2 border-top">
+                                                <a href="#" class="text-inherit"><i class="feather-icon icon-edit me-1"></i>Edit</a>
+                                                <a href="#" class="text-danger ms-3" data-bs-toggle="modal" data-bs-target="#deleteModal"><i class="feather-icon icon-trash-2 me-1"></i>Delete</a>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -266,6 +153,100 @@
         </section>
         <!-- Header Section End-->
     </main>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteModalLabel">Delete Address</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Are you sure you want to delete this address?</h6>
+                    <p class="m-0">Nion Roy</p>
+                    <p class="m-0"> 4450 North Avenue Oakland</p>
+                    <p class="m-0">01761115624</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-gray-400" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="addAddressModal" tabindex="-1" aria-labelledby="addAddressModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body p-6">
+                    <div class="d-flex justify-content-between mb-5">
+                        <div>
+                            <h5 class="mb-1" id="addAddressModalLabel">New Shipping Address</h5>
+                            <p class="small mb-0">Add new shipping address for your order delivery.</p>
+                        </div>
+                        <div>
+                            <!-- button -->
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <input type="text" class="form-control" placeholder="Full name" aria-label="Full name" required="" />
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control" placeholder="Contact number" aria-label="Contact number" required="" />
+                        </div>
+                        <div class="col-12">
+                            <select class="form-select">
+                                <option selected="">Select Division</option>
+                                <option value="1">Barisal</option>
+                                <option value="2">Chattogram</option>
+                                <option value="3">Dhaka</option>
+                                <option value="4">Khulna</option>
+                                <option value="5">Mymensingh</option>
+                                <option value="6">Rajshahi</option>
+                                <option value="7">Rangpur</option>
+                                <option value="8">Sylhet</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <select class="form-select">
+                                <option selected="">Select District </option>
+                                <option value="1">Dinajpur</option>
+                                <option value="2">Gaibandha</option>
+                                <option value="3">Kurigram </option>
+                                <option value="3">Lalmonirhat </option>
+                                <option value="3">Nilphamari </option>
+                                <option value="3">Panchagarh </option>
+                                <option value="3">Rangpur </option>
+                                <option value="3">Thakurgaon </option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control" placeholder="Zip Code" />
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control" placeholder="Delivery address" />
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                <label class="form-check-label" for="flexCheckDefault">Set as Default</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-end">
+                            <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Cancel</button>
+                            <button class="btn btn-primary" type="button">Save Address</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Login Modal -->

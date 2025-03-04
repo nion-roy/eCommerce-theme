@@ -147,7 +147,7 @@
                                         <!-- list group item -->
                                         <li class="list-group-item d-flex justify-content-between align-items-start bg-light">
                                             <div class="me-auto">
-                                                <div>Item Subtotal</div>
+                                                <div>Subtotal</div>
                                             </div>
                                             <span>$70.00</span>
                                         </li>
@@ -155,14 +155,14 @@
                                         <!-- list group item -->
                                         <li class="list-group-item d-flex justify-content-between align-items-start bg-light">
                                             <div class="me-auto">
-                                                <div>Service Fee</div>
+                                                <div>Delivery Fee</div>
                                             </div>
                                             <span>$3.00</span>
                                         </li>
                                         <!-- list group item -->
                                         <li class="list-group-item d-flex justify-content-between align-items-start bg-light">
                                             <div class="me-auto">
-                                                <div class="fw-bold">Subtotal</div>
+                                                <div class="fw-bold">Grand Total</div>
                                             </div>
                                             <span class="fw-bold">$67.00</span>
                                         </li>
